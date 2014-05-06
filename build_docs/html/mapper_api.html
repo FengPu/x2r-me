@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Mapper &mdash; X2R 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="X2R 1.0 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="mapper">
+<h1>Mapper<a class="headerlink" href="#mapper" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>Given a RDF content, a URI mapping and an output format, this mapper service replaces URIs based on the URI mapping and return a RDF file in the output format</div></blockquote>
+<div class="section" id="web-api-definition">
+<h2>Web API Definition<a class="headerlink" href="#web-api-definition" title="Permalink to this headline">¶</a></h2>
+<dl class="post">
+<dt id="post--mapper{?rdfContent, mapping, format}">
+<tt class="descname">POST </tt><tt class="descname">/mapper{?rdfContent, mapping, format}</tt><a class="headerlink" href="#post--mapper{?rdfContent, mapping, format}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>rdfContent</strong> &#8211; (required) This specifies the content of RDF to be processed.</li>
+<li><strong>mapping</strong> &#8211; (required) This specifies the information needed for <cite>mapper</cite> to update the URIs found in rdfContent.</li>
+<li><strong>format</strong> &#8211; (optional) This specifies the format of output.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; application/rdf+xml</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<div class="section" id="query-parameter-format-detail">
+<h3>Query Parameter Format Detail<a class="headerlink" href="#query-parameter-format-detail" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rdfContent:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">mapping:</th><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">format:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="response-format-detail">
+<h3>Response Format Detail<a class="headerlink" href="#response-format-detail" title="Permalink to this headline">¶</a></h3>
+<p>Content-Type: application/rdf+xml</p>
+</div>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><strong>Example request</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre><span class="nf">POST</span> <span class="nn">/mapper?rdfContent&amp;mapping&amp;format</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</pre></div>
+</div>
+<p><strong>Example response</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre> HTTP/1.1 200 OK
+ Vary: Accept
+ Content-Type: application/rdf+xml
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    &lt;rdf:RDF
+        xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot;
+        xmlns:geo=&quot;http://www.w3.org/2003/01/geo/wgs84_pos#&quot;
+        xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema#&quot;&gt;
+&lt;rdf:Description rdf:about=&quot;http://openisdm.iis.sinica.edu.tw/VR/DaTongSportsCenter&quot;&gt;
+    &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing&quot;/&gt;
+    &lt;updatedAt xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;
+        rdf:datatype=&quot;http://www.w3.org/2001/XMLSchema#dateTime&quot;&gt;2013-07-31T03:23:47Z&lt;/updatedAt&gt;
+    &lt;geo:long&gt;121.516&lt;/geo:long&gt;
+    &lt;hasTelephone xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;&gt;2592-0055&lt;/hasTelephone&gt;
+    &lt;hasName xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;&gt;Da Tong Sports Center&lt;/hasName&gt;
+    &lt;geo:location&gt;No.51, Dalong St., Datong Dist., Taipei City 103, Taiwan (R.O.C.)&lt;/geo:location&gt;
+    &lt;usedFor xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;&gt;Sport&lt;/usedFor&gt;
+    &lt;createdAt xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;
+        rdf:datatype=&quot;http://www.w3.org/2001/XMLSchema#dateTime&quot;&gt;2012-11-28T09:05:13Z&lt;/createdAt&gt;
+    &lt;geo:lat&gt;25.0648&lt;/geo:lat&gt;
+&lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="related-documents">
+<h2>Related Documents<a class="headerlink" href="#related-documents" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>See also:</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference internal" href="extractor_api.html"><em>Extractor&#8217;s Web API</em></a></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="obsolete">
+<h2>Obsolete<a class="headerlink" href="#obsolete" title="Permalink to this headline">¶</a></h2>
+<dl class="post">
+<dt id="post--mapper{?rdfContent, mapping, format}">
+<tt class="descname">POST </tt><tt class="descname">/mapper{?rdfContent, mapping, format}</tt><a class="headerlink" href="#post--mapper{?rdfContent, mapping, format}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>rdfContent</strong> &#8211; String rdfContent is the content from the targeting RDF file.</li>
+<li><strong>mapping</strong> &#8211; String mapping is serialized from a json structure, which contains the information needed for mapper to update the URIs.</li>
+<li><strong>format</strong> &#8211; String format specifies the format of output. Default is <tt class="docutils literal"><span class="pre">xml</span></tt>, which stands for RDF/XML.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; this depends on <em class="mailheader">Accept</em>
+header of request</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Mapper</a><ul>
+<li><a class="reference internal" href="#web-api-definition">Web API Definition</a><ul>
+<li><a class="reference internal" href="#query-parameter-format-detail">Query Parameter Format Detail</a></li>
+<li><a class="reference internal" href="#response-format-detail">Response Format Detail</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#related-documents">Related Documents</a></li>
+<li><a class="reference internal" href="#obsolete">Obsolete</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/mapper_api.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Feng-Pu Yang.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

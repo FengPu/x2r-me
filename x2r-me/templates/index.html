@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<head>
+</head>
+<html>
+<bory>
+
+<style type="text/css">
+#wrap {
+   width:800px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:300px;
+}
+#right_col {
+   float:right;
+   width:500px;
+}
+</style>
+
+<h3>{{result['bNodes']}}  blank nodes were found! <br> </h3>
+<h3>{{result['uNodes']}}  distinct URI reference nodes were found! <br></h3>
+<div id="wrap">
+    <div id="left_col">
+        <h3>Extracted Terms</h3>
+          {% for entry in result['terms'] %}
+              <li><h4>{{ entry }}</h4>
+          {% endfor %}
+    </div>
+    <div id="right_col">
+        <h3>Found URIs</h3>
+          {% for entry in result['uris'] %}
+              <li><h4>{{ entry }}</h4>
+          {% endfor %}
+    </div>
+</div>
+
+
+</body>
+</html>

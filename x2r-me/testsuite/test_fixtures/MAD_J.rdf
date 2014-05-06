@@ -1,0 +1,2714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="@gr:"
+  xmlns:ns2="gr:"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store108">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0838</ns1:latitude>
+    <ns1:longitude>121.566</ns1:longitude>
+    <ns1:name>西湖國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nede0915850014f2e823eb54ab7ff98d6">
+        <ns1:streetAddress> 臺北市內湖區環山路1段25號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store6">
+    <ns1:telephone>2230-8268</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N304309489250463d802fd820691507c8">
+        <ns1:streetAddress>臺北市文山區興隆路3段222號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>文山運動中心</ns1:name>
+    <ns1:longitude>121.56</ns1:longitude>
+    <ns1:latitude>24.997</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store201">
+    <ns1:latitude>25.0351</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>康定路派出所</ns1:name>
+    <ns1:longitude>121.5</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne349afe4098e414a812302c27fc30f03">
+        <ns1:streetAddress>台北市和平西路三段112號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store122">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3771011f67334e6492ae10ac081a82a4">
+        <ns1:streetAddress>臺北市大同區承德路3段285號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0732</ns1:latitude>
+    <ns1:longitude>121.52</ns1:longitude>
+    <ns1:name>明倫國小</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store217">
+    <ns1:longitude>121.503</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N977697642e7640bb8632cd196b253abc">
+        <ns1:streetAddress>台北市莒光路171號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>莒光派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0311</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store89">
+    <ns1:name>臺北市政府消防局 松山分隊</ns1:name>
+    <ns1:latitude>25.0554</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N878de831af934fea99e4cf88275693af">
+        <ns1:streetAddress>台北市建國北路二段39號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.537</ns1:longitude>
+    <ns1:telephone>(02)25178353</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store79">
+    <ns1:telephone>(02)2821-8137</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb78d3b2ef0cf4959a7c88b051b6c890d">
+        <ns1:streetAddress>台北市立農街二段301號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>保一總隊</ns1:name>
+    <ns1:longitude>121.517</ns1:longitude>
+    <ns1:latitude>25.1189</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store40">
+    <ns1:latitude>25.1456</ns1:latitude>
+    <ns1:name>臺北市政府消防局 秀山分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N033351f8532b497ca3c22a676d32f1b1">
+        <ns1:streetAddress>台北市秀山路50號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.493</ns1:longitude>
+    <ns1:telephone>(02)28958753</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store94">
+    <ns1:name>富安國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne4566af5527943aaabeb119bde98e262">
+        <ns1:streetAddress>臺北市士林區延平北路8段135號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1059</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.482</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store102">
+    <ns1:name>太平國小</ns1:name>
+    <ns1:latitude>25.0614</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf33fd0e42422405a8294a4e18f1f576d">
+        <ns1:streetAddress>臺北市大同區延平北路二段239號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.511</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store62">
+    <ns1:latitude>25.0305</ns1:latitude>
+    <ns1:longitude>121.575</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Na1e72bc2724140f4a4635f8fbe58ced3">
+        <ns1:streetAddress>台北市松德路309號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2726-3141</ns1:telephone>
+    <ns1:name>聯合醫院(松德院區)</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store38">
+    <ns1:telephone>(02)25017795 </ns1:telephone>
+    <ns1:latitude>25.0681</ns1:latitude>
+    <ns1:longitude>121.535</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbd986096fc5541878e7d00760b1156ce">
+        <ns1:streetAddress>台北市民族東路282號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 建國分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store73">
+    <ns1:latitude>25.0328</ns1:latitude>
+    <ns1:longitude>121.552</ns1:longitude>
+    <ns1:telephone>(02)27094191</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ndcc40da3593640a8861e7a1aea1404a1">
+        <ns1:streetAddress>台北市安和路二段2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 安和分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store184">
+    <ns1:name>翠山派出所</ns1:name>
+    <ns1:longitude>121.56</ns1:longitude>
+    <ns1:latitude>25.1081</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf330d3d792fe4b0891ab6726bd8dddf3">
+        <ns1:streetAddress>台北市中社路一段56號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store186">
+    <ns1:longitude>121.613</ns1:longitude>
+    <ns1:latitude>25.0675</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N746018346141415fa7780068ddccc0e0">
+        <ns1:streetAddress>台北市五分街10號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>東湖派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store77">
+    <ns1:longitude>121.607</ns1:longitude>
+    <ns1:telephone>(02)27837757</ns1:telephone>
+    <ns1:name>臺北市政府消防局 南港分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfe735c4d0935419d9dd77cddc481e4af">
+        <ns1:streetAddress>台北市興中路6號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0547</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store166">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N421af43a5aa7452a9209d0da75810a98">
+        <ns1:streetAddress>台北市桂林路135號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>桂林路派出所</ns1:name>
+    <ns1:longitude>121.5</ns1:longitude>
+    <ns1:latitude>25.0386</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store1">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf2664531a8f84ff0834332f27256ef44">
+        <ns1:streetAddress>臺北市士林區士商路一號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>2880-6066</ns1:telephone>
+    <ns1:longitude>121.521</ns1:longitude>
+    <ns1:name>士林運動中心</ns1:name>
+    <ns1:latitude>25.0897</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store31">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N076fff49677547a6baa72f6f30d49220">
+        <ns1:streetAddress>台北市福州街12號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>聯合醫院婦幼院區</ns1:name>
+    <ns1:latitude>25.0291</ns1:latitude>
+    <ns1:telephone>(02)2391-6470</ns1:telephone>
+    <ns1:longitude>121.519</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store21">
+    <ns1:longitude>121.468</ns1:longitude>
+    <ns1:telephone>(02)2858-1081</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N96f67814e75f4ffbbcc4a7470eb0d375">
+        <ns1:streetAddress>台北市知行路75號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市立浩然敬老院</ns1:name>
+    <ns1:latitude>25.1184</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store13">
+    <ns1:latitude>24.999</ns1:latitude>
+    <ns1:longitude>121.544</ns1:longitude>
+    <ns1:telephone>(02)2930-9922</ns1:telephone>
+    <ns1:name>和興救護車有限公司</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5da140004d20437fa84de6932dcb5932">
+        <ns1:streetAddress>台北市景隆街121號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store192">
+    <ns1:name>山仔後派出所</ns1:name>
+    <ns1:latitude>25.1373</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.546</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4d92beb69cfb45a3b5d98730db555d7c">
+        <ns1:streetAddress>台北市格致路39號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store185">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0593</ns1:latitude>
+    <ns1:name>三民派出所</ns1:name>
+    <ns1:longitude>121.563</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N025c90a60173416bbf07b8b742cff893">
+        <ns1:streetAddress>台北市民生東路5段163-1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store9">
+    <ns1:longitude>121.507</ns1:longitude>
+    <ns1:latitude>25.0474</ns1:latitude>
+    <ns1:name>萬華運動中心</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N305f4adf14d74aa8b14e8c6e68e53428">
+        <ns1:streetAddress>臺北市萬華區西寧南路6之1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>2381-8878</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store17">
+    <ns1:telephone>(02)28616431</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N718493cc7d5144c189d9cd38d633c4d8">
+        <ns1:streetAddress>台北市仰德大道四段161號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1339</ns1:latitude>
+    <ns1:name>臺北市政府消防局 山仔后分隊</ns1:name>
+    <ns1:longitude>121.546</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store78">
+    <ns1:telephone>(02)271-35211</ns1:telephone>
+    <ns1:name>私立長庚醫院</ns1:name>
+    <ns1:longitude>121.55</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2516da0a222c49fabfdd512cebb5c246">
+        <ns1:streetAddress>台北市敦化北路 199 號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0556</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store124">
+    <ns1:latitude>25.0386</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nea51caeea89941d3b1be9218bc9703b0">
+        <ns1:streetAddress>臺北市中正區重慶南路1段 165 號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>北一女中</ns1:name>
+    <ns1:longitude>121.513</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store151">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N89a9cb7b197848be8e5872531f4fb0b5">
+        <ns1:streetAddress>台北市中央北路一段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1333</ns1:latitude>
+    <ns1:name>長安派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.501</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store69">
+    <ns1:name>社會局自費老人安養院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5f7369fb14af448cae807ab182827d5d">
+        <ns1:streetAddress>台北市興隆路四段109巷30弄6號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.563</ns1:longitude>
+    <ns1:latitude>24.9861</ns1:latitude>
+    <ns1:telephone>(02)2939-3146</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store143">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>少年警察隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Na1b76499d136456c8e54968112eacf72">
+        <ns1:streetAddress>台北市信義路五段180號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.574</ns1:longitude>
+    <ns1:latitude>25.0331</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store139">
+    <ns1:name>漢中街派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.507</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf054416cab4547c19e677c3bf0c32d43">
+        <ns1:streetAddress>台北市漢中街122號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0421</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store218">
+    <ns1:latitude>25.0896</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N589cedc130b643a6a0bd1975bd8a5ae6">
+        <ns1:streetAddress>台北市延平北路六段192號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.506</ns1:longitude>
+    <ns1:name>社子派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store74">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6dbf7f64cad84b44987535f50eb4e7f4">
+        <ns1:streetAddress>台北市光明路155號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 光明分隊</ns1:name>
+    <ns1:longitude>121.502</ns1:longitude>
+    <ns1:telephone>(02)28913161</ns1:telephone>
+    <ns1:latitude>25.1351</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store90">
+    <ns1:latitude>25.0704</ns1:latitude>
+    <ns1:name>三軍總醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nff1fec2097a34b4bb505fbdb587fdadb">
+        <ns1:streetAddress>台北市成功路二段325號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.59</ns1:longitude>
+    <ns1:telephone>(02)8792-3311</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store39">
+    <ns1:latitude>25.0437</ns1:latitude>
+    <ns1:telephone>(02)23516396</ns1:telephone>
+    <ns1:longitude>121.527</ns1:longitude>
+    <ns1:name>臺北市政府消防局 忠孝分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N25ad1ebb1182400ba3bf953fe7fd9fac">
+        <ns1:streetAddress>台北市忠孝東路二段8號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store194">
+    <ns1:longitude>121.538</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1549f739ef1144a3a9a44ed26f338a1a">
+        <ns1:streetAddress>台北市仰德大道一段16號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1011</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>芝山岩派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store28">
+    <ns1:name>臺北市立關渡醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne689d02b160c47f7af1eb2dc9465c4cb">
+        <ns1:streetAddress>台北市知行路225巷12號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1203</ns1:latitude>
+    <ns1:longitude>121.466</ns1:longitude>
+    <ns1:telephone>(02)2858-7000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store80">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N721461d358ee45efa6f4c064a65c928c">
+        <ns1:streetAddress>台北市同德路87號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2786-1288</ns1:telephone>
+    <ns1:name>聯合醫院忠孝院區</ns1:name>
+    <ns1:longitude>121.586</ns1:longitude>
+    <ns1:latitude>25.0465</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store221">
+    <ns1:longitude>121.567</ns1:longitude>
+    <ns1:name>萬芳派出所</ns1:name>
+    <ns1:latitude>25.0023</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N78047ad69a6b4f3ea3aaf905751f1628">
+        <ns1:streetAddress>台北市萬美街一段50號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store109">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>福星國小</ns1:name>
+    <ns1:longitude>121.509</ns1:longitude>
+    <ns1:latitude>25.0468</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N0cef870e31714bcfab32234026fe9685">
+        <ns1:streetAddress>臺北市萬華區中華路1段66號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store96">
+    <ns1:latitude>25.0625</ns1:latitude>
+    <ns1:name>民權國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbe76c34782894ecdbc52b34a0b28bda9">
+        <ns1:streetAddress>臺北市松山區民權東路4段200號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.562</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store150">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N333b0c88bf80460da21b5c9efcff7909">
+        <ns1:streetAddress>台北市延平南路96號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.51</ns1:longitude>
+    <ns1:name>通信隊</ns1:name>
+    <ns1:latitude>25.0439</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store67">
+    <ns1:telephone>(02)2833-2211</ns1:telephone>
+    <ns1:latitude>25.1202</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N95d04a0b3aa34a53af3ea758ff22267e">
+        <ns1:streetAddress>台北市石牌路二段201號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北榮民總醫院</ns1:name>
+    <ns1:longitude>121.52</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store14">
+    <ns1:longitude>121.467</ns1:longitude>
+    <ns1:telephone>(02)28586084</ns1:telephone>
+    <ns1:name>臺北市政府消防局 關渡分隊</ns1:name>
+    <ns1:latitude>25.1231</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6f2965d76146426aae16502ebf909aa0">
+        <ns1:streetAddress>台北市知行路345號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store8">
+    <ns1:latitude>25.0782</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2c2887e2a00148e9ac32c56438bcb6b2">
+        <ns1:streetAddress>臺北市內湖區洲子街12號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>2627-7776</ns1:telephone>
+    <ns1:longitude>121.575</ns1:longitude>
+    <ns1:name>內湖運動中心</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store58">
+    <ns1:longitude>121.548</ns1:longitude>
+    <ns1:telephone>(02)2771-8151</ns1:telephone>
+    <ns1:latitude>25.048</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N9a18aaf9649c41bdbb00510b54c0196c">
+        <ns1:streetAddress>台北市八德路二段424號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>私立臺安醫院</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store37">
+    <ns1:name>臺北市政府消防局 後港分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N45b42dbeaaf843a9aacec7952ef9fab0">
+        <ns1:streetAddress>台北市福港街153號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)28816775</ns1:telephone>
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:latitude>25.0872</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store238">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd50fe7ced84d40678a647252e4e764ac">
+        <ns1:streetAddress>台北市文林北路296號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>石牌派出所</ns1:name>
+    <ns1:latitude>25.1099</ns1:latitude>
+    <ns1:longitude>121.512</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store64">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N52f274a60b534be5b7970cecc2f46529">
+        <ns1:streetAddress>台北市延平北路七段42-7號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.497</ns1:longitude>
+    <ns1:telephone>(02)28108454</ns1:telephone>
+    <ns1:name>臺北市政府消防局 福安分隊</ns1:name>
+    <ns1:latitude>25.0964</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store203">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N352b1cf1c6ea4797838af5cdb949ff49">
+        <ns1:streetAddress>台北市內湖路二段261號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.59</ns1:longitude>
+    <ns1:latitude>25.0821</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>內湖派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store148">
+    <ns1:longitude>121.601</ns1:longitude>
+    <ns1:latitude>25.0841</ns1:latitude>
+    <ns1:name>大湖派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbe302245f28c4e729d5bc77fbfaa18c5">
+        <ns1:streetAddress>台北市成功路五段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store161">
+    <ns1:latitude>25.0546</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N9d6e6ab2feb442e5ad88ba54a85e05c9">
+        <ns1:streetAddress>台北市長春路206號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>長春路派出所</ns1:name>
+    <ns1:longitude>121.536</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store232">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>福德街派出所</ns1:name>
+    <ns1:longitude>121.582</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N238f44fee29b4f9e828ff110f9e43f23">
+        <ns1:streetAddress>台北市福德街198號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0373</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store153">
+    <ns1:name>天母派出所</ns1:name>
+    <ns1:latitude>25.125</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6a2ddcfaef834c38b916457d99048f27">
+        <ns1:streetAddress>台北市中山北路七段192號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.533</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store25">
+    <ns1:name>聯合醫院陽明院區</ns1:name>
+    <ns1:longitude>121.532</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nefd06b8edf8841b8b6d75ac3737770a5">
+        <ns1:streetAddress>台北市雨聲街105號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2835-3456</ns1:telephone>
+    <ns1:latitude>25.1053</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store244">
+    <ns1:longitude>121.537</ns1:longitude>
+    <ns1:name>臺北市政府消防局 松江分隊</ns1:name>
+    <ns1:latitude>25.0554</ns1:latitude>
+    <ns1:telephone>(02)25178353</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfd2841ae9b274c2fb67dec036611205c">
+        <ns1:streetAddress>台北市建國北路二段39號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store45">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N125804c97ca8478b997f79345ba9dc77">
+        <ns1:streetAddress>台北市成功路二段378號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)27911511</ns1:telephone>
+    <ns1:latitude>25.0699</ns1:latitude>
+    <ns1:name>臺北市政府消防局 內湖分隊</ns1:name>
+    <ns1:longitude>121.59</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store87">
+    <ns1:name>臺北市政府消防局 延平分隊</ns1:name>
+    <ns1:latitude>25.0503</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N0d1682ebc3ba44b28e862a505561a620">
+        <ns1:streetAddress>台北市鄭州路109號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.511</ns1:longitude>
+    <ns1:telephone>(02)25582105</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store242">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N48681fd4f298459bbad74f8eb0438f75">
+        <ns1:streetAddress>台北市環河南路二段196號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.493</ns1:longitude>
+    <ns1:latitude>25.0343</ns1:latitude>
+    <ns1:name>華江派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store179">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N0982c6030fb140e580c02d128d0f7ea9">
+        <ns1:streetAddress>台北市同德路83號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>同德派出所</ns1:name>
+    <ns1:latitude>25.0461</ns1:latitude>
+    <ns1:longitude>121.586</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store195">
+    <ns1:name>中正第二分局</ns1:name>
+    <ns1:longitude>121.514</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N370affd77a504c2bb6f008637fc2f308">
+        <ns1:streetAddress>台北市南海路35號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.032</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store125">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N23f2c0c62c274745a1d08e3cb78bf75e">
+        <ns1:streetAddress>臺北市文山區興隆路1段68號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.54</ns1:longitude>
+    <ns1:name>武功國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0039</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store35">
+    <ns1:name>國軍松山總醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N56d6c843279b4b7d943f51e5ffcf5584">
+        <ns1:streetAddress>台北市長安東路二段229號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.546</ns1:longitude>
+    <ns1:latitude>25.0484</ns1:latitude>
+    <ns1:telephone>(02)2764-2151</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store127">
+    <ns1:longitude>121.536</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>芝山國小</ns1:name>
+    <ns1:latitude>25.1103</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5a880243c5b14140b96be1f3afa8dd30">
+        <ns1:streetAddress>臺北市士林區德行東路285號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store81">
+    <ns1:name>萬芳醫院</ns1:name>
+    <ns1:telephone>(02)2930-7930</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N260751e5bd9f4cb8a497a49ed88f6d92">
+        <ns1:streetAddress>台北市興隆路三段111號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.558</ns1:longitude>
+    <ns1:latitude>24.9997</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store57">
+    <ns1:longitude>121.602</ns1:longitude>
+    <ns1:latitude>25.0846</ns1:latitude>
+    <ns1:name>私立康寧醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Na0b68960ec8547c9b404f812ff732aa5">
+        <ns1:streetAddress>台北市成功路五段420巷26號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2634-5500</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store105">
+    <ns1:latitude>25.0387</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N79e87e91d44b4730aed2812b803f123c">
+        <ns1:streetAddress>臺北市中正區仁愛路1段2之4號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.521</ns1:longitude>
+    <ns1:name>東門國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store83">
+    <ns1:name>臺北市政府消防局 大直分隊</ns1:name>
+    <ns1:telephone>(02)85026151</ns1:telephone>
+    <ns1:latitude>25.0802</ns1:latitude>
+    <ns1:longitude>121.557</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3f1a95a5a1be44d3bd043c55f289cb8a">
+        <ns1:streetAddress>台北市樂群二路143號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store198">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.504</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N70d55d64d9a84e5283545ca30944ab12">
+        <ns1:streetAddress>台北市昆明街245號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>昆明街派出所</ns1:name>
+    <ns1:latitude>25.0378</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store121">
+    <ns1:longitude>121.555</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N9b92d1b007df4d44b814d81bc5fdf9ec">
+        <ns1:streetAddress>臺北市文山區辛亥路7段67號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>實踐國中</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>24.9834</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store132">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N0cbb84bd03ed43d2aaaf933ac11179b5">
+        <ns1:streetAddress>台北市民權東路六段26號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>文德派出所</ns1:name>
+    <ns1:longitude>121.579</ns1:longitude>
+    <ns1:latitude>25.0666</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store126">
+    <ns1:longitude>121.503</ns1:longitude>
+    <ns1:name>新和國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.026</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N064fbb2995a5477da8e8b7bad487fe3b">
+        <ns1:streetAddress>臺北市萬華區西藏路125巷31號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store63">
+    <ns1:telephone>(02)26518983</ns1:telephone>
+    <ns1:name>臺北市政府消防局 成德分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2af8c931ca684102abe3ab0518a34e25">
+        <ns1:streetAddress>台北市東新街63巷11號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.587</ns1:longitude>
+    <ns1:latitude>25.0479</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store10">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne219813ce95240f0ad8f4c08cf1199b3">
+        <ns1:streetAddress>臺北市辛亥路3段55號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>大安運動中心</ns1:name>
+    <ns1:latitude>25.0208</ns1:latitude>
+    <ns1:longitude>121.546</ns1:longitude>
+    <ns1:telephone>2377-0300</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store43">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbfb18e46cf524aa4ad919f6ec8de05bf">
+        <ns1:streetAddress>台北市新民路60號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>國軍北投醫院</ns1:name>
+    <ns1:telephone>(02)2895-9808</ns1:telephone>
+    <ns1:latitude>25.1396</ns1:latitude>
+    <ns1:longitude>121.51</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store180">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.517</ns1:longitude>
+    <ns1:name>忠孝西路派出所</ns1:name>
+    <ns1:latitude>25.0451</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbe6c719008e74c0d94a806ae6e92bef4">
+        <ns1:streetAddress>台北市公園路15號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store163">
+    <ns1:name>公園派出所</ns1:name>
+    <ns1:latitude>25.1488</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb7d59b92330c4884bc45b60a03b51a0e">
+        <ns1:streetAddress>台北市紗帽路110號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.549</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store82">
+    <ns1:latitude>25.0637</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N85650b4fcc664693b7b50670548398bf">
+        <ns1:streetAddress>台北市敦化北路340之9號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.552</ns1:longitude>
+    <ns1:name>交通部民用航空局臺北國際航空站</ns1:name>
+    <ns1:telephone>(02)8770-3430</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store5">
+    <ns1:telephone>8786-1911</ns1:telephone>
+    <ns1:latitude>25.0319</ns1:latitude>
+    <ns1:longitude>121.567</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb98db0e239ba4851a335df65b9591e18">
+        <ns1:streetAddress>臺北市信義區松勤街100號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>信義運動中心</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store241">
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:latitude>25.0259</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1172f4554b8b40fda02298c3044dc12f">
+        <ns1:streetAddress>台北市廈門街43號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>廈門街派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store245">
+    <ns1:telephone>(02)2578-6677</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N8576e7429cbd40b39b70bc78947a3277">
+        <ns1:streetAddress>台北市光復北路66號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0499</ns1:latitude>
+    <ns1:name>博仁醫院</ns1:name>
+    <ns1:longitude>121.558</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store187">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfbcb7d6326c64d4d8ad79e5405ee5222">
+        <ns1:streetAddress>台北市大度路三段305號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>關渡派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.123</ns1:latitude>
+    <ns1:longitude>121.466</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store231">
+    <ns1:name>寧夏路派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.515</ns1:longitude>
+    <ns1:latitude>25.0596</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N824293bbc4194c8aaf30fb0a206a9756">
+        <ns1:streetAddress>台北市錦西街200號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store12">
+    <ns1:telephone>(02)26325393</ns1:telephone>
+    <ns1:longitude>121.613</ns1:longitude>
+    <ns1:latitude>25.0675</ns1:latitude>
+    <ns1:name>臺北市政府消防局 東湖分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd785649ef288457fa44534b5999ac865">
+        <ns1:streetAddress>台北市五分街8號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store176">
+    <ns1:longitude>121.544</ns1:longitude>
+    <ns1:name>大直派出所</ns1:name>
+    <ns1:latitude>25.0795</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N39d8d0dc852c49f28df2abe1b64b7db9">
+        <ns1:streetAddress>台北市北安路456號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store154">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>中山一派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ndb07747d1e0f49fbabb83d0854bf52e4">
+        <ns1:streetAddress>台北市中山北路一段110號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.05</ns1:latitude>
+    <ns1:longitude>121.521</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store169">
+    <ns1:name>南港分局</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6e3c47ec11844c0c8da5ab4ef05292a1">
+        <ns1:streetAddress>台北市向陽路150號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.054</ns1:latitude>
+    <ns1:longitude>121.595</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store170">
+    <ns1:longitude>121.514</ns1:longitude>
+    <ns1:name>南海路派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nded48b5f38714c91b7b0d52a033298e7">
+        <ns1:streetAddress>台北市南海路35號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.032</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store204">
+    <ns1:latitude>24.9824</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N0e2a32c1011c43e9a2997cf570484165">
+        <ns1:streetAddress>台北市文山區恆光街45號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>木新派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.567</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store237">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0934</ns1:latitude>
+    <ns1:name>士林分局</ns1:name>
+    <ns1:longitude>121.525</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf16d7ca6eedf4ace9f67dcce619cf17d">
+        <ns1:streetAddress>台北市文林路235號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store233">
+    <ns1:longitude>121.512</ns1:longitude>
+    <ns1:latitude>25.0243</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd103b22fe7a547f49c9266a44bb6adef">
+        <ns1:streetAddress>台北市中華路二段503號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>泉州街派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store155">
+    <ns1:longitude>121.517</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>建成派出所</ns1:name>
+    <ns1:latitude>25.0527</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfdaca4b695024c9d870dd9c9876c6634">
+        <ns1:streetAddress>台北市承德路一段80號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store103">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd198eee640d343fbb2d9cc99463352b5">
+        <ns1:streetAddress>臺北市信義區福德街221巷15號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.585</ns1:longitude>
+    <ns1:latitude>25.0371</ns1:latitude>
+    <ns1:name>王留公國中</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store181">
+    <ns1:name>港墘派出所</ns1:name>
+    <ns1:longitude>121.577</ns1:longitude>
+    <ns1:latitude>25.0788</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N006d48333e394bbd971330a70e3512c2">
+        <ns1:streetAddress>台北市內湖路一段550號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store133">
+    <ns1:longitude>121.54</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.1675</ns1:latitude>
+    <ns1:name>竹子湖派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd8345010a0204c4e908ec545c0212099">
+        <ns1:streetAddress>台北市竹子湖路16號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store196">
+    <ns1:name>羅斯福路派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N90e9977485c64dfa9abdfcc45ccb392c">
+        <ns1:streetAddress>台北市羅斯福路四段113巷13號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.539</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0112</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store68">
+    <ns1:longitude>121.563</ns1:longitude>
+    <ns1:latitude>25.0485</ns1:latitude>
+    <ns1:name>臺北市政府消防局 八德分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N026189396a1d452c958f069c34b50819">
+        <ns1:streetAddress>台北市八德路四段162號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)27694642</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store174">
+    <ns1:latitude>25.0439</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf24a5539b7ca4d3fb43c54f2aeec8a1b">
+        <ns1:streetAddress>台北市延平南路96號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府警察局總局</ns1:name>
+    <ns1:longitude>121.51</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store20">
+    <ns1:telephone>(02)87737055</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N53294c74935d43619da70b1c47d3aec2">
+        <ns1:streetAddress>台北市長安東路二段229號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.546</ns1:longitude>
+    <ns1:latitude>25.0484</ns1:latitude>
+    <ns1:name>臺北市政府消防局 中崙分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store135">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3bf6f275eb5046e78a9d26b949f837fa">
+        <ns1:streetAddress>台北市信義路五段180號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0331</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.574</ns1:longitude>
+    <ns1:name>婦幼警察隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store33">
+    <ns1:name>私立北醫附設醫院</ns1:name>
+    <ns1:latitude>25.0268</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N83557c63d4d641d5acd5151d6fba16e0">
+        <ns1:streetAddress>台北市吳興街252號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.563</ns1:longitude>
+    <ns1:telephone>(02)2737-2181</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store216">
+    <ns1:name>康寧派出所</ns1:name>
+    <ns1:longitude>121.598</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1f5295fcb331411db5d7f381215edd28">
+        <ns1:streetAddress>台北市金湖路83號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0812</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store76">
+    <ns1:name>私立振興醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N876854272fbc44b0b153a1fa8f85e457">
+        <ns1:streetAddress>台北市振興街45號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.522</ns1:longitude>
+    <ns1:latitude>25.1175</ns1:latitude>
+    <ns1:telephone>(02)2826-4400</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store212">
+    <ns1:longitude>121.551</ns1:longitude>
+    <ns1:latitude>25.0015</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N217c2c1999224f7a9b6de6db048011c9">
+        <ns1:streetAddress>台北市興隆路二段156號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>興隆派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store158">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.1374</ns1:latitude>
+    <ns1:name>光明派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3a2c01f4980d4dd9bdf108febb1d4997">
+        <ns1:streetAddress>台北市泉源路14號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.504</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store145">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3edfd69c9fb448ffbc904002f97271a3">
+        <ns1:streetAddress>台北市民權東路六段101號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.59</ns1:longitude>
+    <ns1:name>內湖分局</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0692</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store183">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0578</ns1:latitude>
+    <ns1:longitude>121.523</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Na565134d0655416599ab96e905aef66f">
+        <ns1:streetAddress>台北市中山北路二段90號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>中山二派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store16">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3194b8356286474c937517ce3c9351f4">
+        <ns1:streetAddress>台北市桂林路137號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0386</ns1:latitude>
+    <ns1:longitude>121.499</ns1:longitude>
+    <ns1:telephone>(02)23122496</ns1:telephone>
+    <ns1:name>臺北市政府消防局 龍山分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store11">
+    <ns1:longitude>121.55</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfd93007d00d74625a935cc3a9cb23ff8">
+        <ns1:streetAddress>臺北市敦化北路1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>6617-6789</ns1:telephone>
+    <ns1:name>松山運動中心</ns1:name>
+    <ns1:latitude>25.0486</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store48">
+    <ns1:telephone>(02)2709-3600</ns1:telephone>
+    <ns1:longitude>121.545</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N22c94579dc464f00ad360a6c1b41978f">
+        <ns1:streetAddress>台北市仁愛路四段10號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0375</ns1:latitude>
+    <ns1:name>聯合醫院仁愛院區</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store144">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0219</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N7cd06ea0003d4a86a664cac92e15bb66">
+        <ns1:streetAddress>台北市萬大路423巷114號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>青年路派出所</ns1:name>
+    <ns1:longitude>121.502</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store92">
+    <ns1:longitude>121.554</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N55b4ebec2dc04c85b068e1e09fbb0d63">
+        <ns1:streetAddress>台北市仁愛路四段280號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>私立國泰醫院</ns1:name>
+    <ns1:telephone>(02)2708-2121</ns1:telephone>
+    <ns1:latitude>25.0369</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store113">
+    <ns1:longitude>121.526</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>中山國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N7657813e49154556a0c64950805f74a2">
+        <ns1:streetAddress>臺北市中山區民權東路1段69號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0628</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store118">
+    <ns1:name>義方國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5d26a66f73d04e3784aaf715eaa06800">
+        <ns1:streetAddress>臺北市北投區珠海路155號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.509</ns1:longitude>
+    <ns1:latitude>25.142</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store207">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb631cab6a38f4d5da62619ccea58bd07">
+        <ns1:streetAddress>台北市仁愛路三段2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>大安分局</ns1:name>
+    <ns1:longitude>121.533</ns1:longitude>
+    <ns1:latitude>25.0378</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store172">
+    <ns1:longitude>121.523</ns1:longitude>
+    <ns1:latitude>25.039</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N9d621dd1a25643909a21d0ba514c906f">
+        <ns1:streetAddress>台北市仁愛路一段19號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>仁愛路派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store200">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nc70609e6200b41f5bb5d162d8fedb383">
+        <ns1:streetAddress>台北市東園街17號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.496</ns1:longitude>
+    <ns1:latitude>25.0281</ns1:latitude>
+    <ns1:name>西園路派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store65">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N87b0d9ae429f4c4ea939f2c7a8459faf">
+        <ns1:streetAddress>台北市昆明街100號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2388-7088</ns1:telephone>
+    <ns1:latitude>25.0443</ns1:latitude>
+    <ns1:longitude>121.505</ns1:longitude>
+    <ns1:name>聯合醫院中醫院區</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store191">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.525</ns1:longitude>
+    <ns1:name>文林派出所</ns1:name>
+    <ns1:latitude>25.0934</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf7f43ac85bed43a48f85f44aee02fa90">
+        <ns1:streetAddress>台北市文林路235號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store134">
+    <ns1:longitude>121.513</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N270a6f732ff34e31b5fe84f171af1354">
+        <ns1:streetAddress>台北市重慶北路三段168號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>民族路派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0688</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store168">
+    <ns1:latitude>25.0266</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd6bd9bc81ae343a0b62d3c07c385bf49">
+        <ns1:streetAddress>台北市吳興街262號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>吳興街派出所</ns1:name>
+    <ns1:longitude>121.564</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store52">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf4457e6bf2cb4cf7821e14b1159fd97f">
+        <ns1:streetAddress>台北市敦化北路344之2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0614</ns1:latitude>
+    <ns1:telephone>(02)8712-9119</ns1:telephone>
+    <ns1:longitude>121.55</ns1:longitude>
+    <ns1:name>內政部消防署特搜隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store193">
+    <ns1:longitude>121.582</ns1:longitude>
+    <ns1:latitude>25.0553</ns1:latitude>
+    <ns1:name>潭美派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf8208c3a991d49e0b6b44932c5902ccd">
+        <ns1:streetAddress>台北市新明路324號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store215">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb66d5ba2b7b146fa8fa880437f1b0c2c">
+        <ns1:streetAddress>台北市南昌路一段7號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0323</ns1:latitude>
+    <ns1:name>南昌街派出所</ns1:name>
+    <ns1:longitude>121.517</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store213">
+    <ns1:name>民生西路派出所</ns1:name>
+    <ns1:longitude>121.512</ns1:longitude>
+    <ns1:latitude>25.0592</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N583c5507c0824974b6a44db2e78bfbeb">
+        <ns1:streetAddress>台北市保安街47-1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store46">
+    <ns1:longitude>121.565</ns1:longitude>
+    <ns1:latitude>25.0295</ns1:latitude>
+    <ns1:telephone>(02)27581575</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2909641796dc4e26ad55ce42678ce4e1">
+        <ns1:streetAddress>台北市松智路40號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 莊敬分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store146">
+    <ns1:latitude>25.018</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N7e9bcbbff714423dbc3f237492d4ee1f">
+        <ns1:streetAddress>台北市臥龍街185號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.552</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>臥龍街派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store41">
+    <ns1:name>臺灣大學</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N9a68729ddb4b482e8cd823ef8a1c78d4">
+        <ns1:streetAddress>台北市羅斯福路四段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.535</ns1:longitude>
+    <ns1:latitude>25.0178</ns1:latitude>
+    <ns1:telephone>(02)3366-3366</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store47">
+    <ns1:name>臺北市政府消防局 劍潭分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb6c36897c10749c3b4df8a3f53cfc3cd">
+        <ns1:streetAddress>台北市中山北路五段376號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0901</ns1:latitude>
+    <ns1:telephone>(02)28813019</ns1:telephone>
+    <ns1:longitude>121.528</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store171">
+    <ns1:latitude>25.0224</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N229edc152763410c88150ec0c7a50f02">
+        <ns1:streetAddress>台北市長泰街130號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.498</ns1:longitude>
+    <ns1:name>東園街派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store138">
+    <ns1:name>思源街派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0152</ns1:latitude>
+    <ns1:longitude>121.532</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2ed7bab05b894cca9c3a194014e44c2c">
+        <ns1:streetAddress>台北市汀州路三段72號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store182">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb30a50a7bc8a4762bdbe3c21c1787881">
+        <ns1:streetAddress>台北市永吉路333號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0457</ns1:latitude>
+    <ns1:longitude>121.576</ns1:longitude>
+    <ns1:name>五分埔派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store164">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne14aa4166ec643c5ae1cbdfa367466fc">
+        <ns1:streetAddress>台北市新生北路二段127-1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.06</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>民權一派出所</ns1:name>
+    <ns1:longitude>121.528</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store159">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0568</ns1:latitude>
+    <ns1:name>保安警察大隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1ab69329cc1f4e5c97bb1c4586a1766d">
+        <ns1:streetAddress>台北市延壽街339號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.56</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store236">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne8e2b73c4b7449f38b016c731189b061">
+        <ns1:streetAddress>台北市嘉興街301號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0237</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>六張犁派出所</ns1:name>
+    <ns1:longitude>121.555</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store27">
+    <ns1:latitude>25.0408</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N636a2274b5a245189c7909762350ec1e">
+        <ns1:streetAddress>台北市中山南路7號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺大醫院</ns1:name>
+    <ns1:longitude>121.519</ns1:longitude>
+    <ns1:telephone>(02)2312-3456</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store240">
+    <ns1:longitude>121.548</ns1:longitude>
+    <ns1:name>民有派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5b93e22f8f754145af8d662c6a668c87">
+        <ns1:streetAddress>台北市民權東路3段162號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0618</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store72">
+    <ns1:telephone>(02)25997925</ns1:telephone>
+    <ns1:name>臺北市政府消防局 大同分隊</ns1:name>
+    <ns1:latitude>25.0703</ns1:latitude>
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2f5df82a4c89402096e3a7959807cf76">
+        <ns1:streetAddress>台北市承德路三段206號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store70">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N9a5f40f7d13e4cd0b7ba6a85ebce53b1">
+        <ns1:streetAddress>台北市哈密街23巷20號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2596-2121</ns1:telephone>
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:latitude>25.0743</ns1:latitude>
+    <ns1:name>仁光救護車有限公司</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store208">
+    <ns1:latitude>25.0704</ns1:latitude>
+    <ns1:longitude>121.618</ns1:longitude>
+    <ns1:name>康樂派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N8c2a11bd30054aa1aa63706162c118b5">
+        <ns1:streetAddress>台北市康樂街110巷16弄20號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store19">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4684e20823b640778d43c8f591c8db44">
+        <ns1:streetAddress>台北市承德路二段35號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0548</ns1:latitude>
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:telephone>(02)25593748</ns1:telephone>
+    <ns1:name>臺北市政府消防局 建成分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store149">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>大屯派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbbdaaa8e10aa4a4abdd4e7071fcd840d">
+        <ns1:streetAddress>台北市中和街534號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1456</ns1:latitude>
+    <ns1:longitude>121.493</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store142">
+    <ns1:latitude>25.0344</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>大理街派出所</ns1:name>
+    <ns1:longitude>121.498</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N726c62f597bc417d89b45ffede5b4f47">
+        <ns1:streetAddress>台北市大理街99號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store160">
+    <ns1:latitude>24.9873</ns1:latitude>
+    <ns1:longitude>121.578</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf3404b350e1d4af5b049134956b83abc">
+        <ns1:streetAddress>台北市指南路二段177號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>指南派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store3">
+    <ns1:longitude>121.521</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne714ee906ed84b4cbda597162f0bea91">
+        <ns1:streetAddress>臺北市中山區中山北路2段44巷2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0549</ns1:latitude>
+    <ns1:telephone>2581-1060</ns1:telephone>
+    <ns1:name>中山運動中心</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store147">
+    <ns1:latitude>25.068</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.536</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf23488c7e5124b5792e24fa7ba72b1ea">
+        <ns1:streetAddress>台北市民族東路284號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>建國派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store129">
+    <ns1:longitude>121.617</ns1:longitude>
+    <ns1:name>胡適國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb2a25fc0d13843f9920df59912bf0f54">
+        <ns1:streetAddress>臺北市南港區舊莊街1段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0424</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store112">
+    <ns1:name>文化國小</ns1:name>
+    <ns1:latitude>25.1385</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N30c443690f364576a0cda0417f8a8fb3">
+        <ns1:streetAddress>臺北市北投區文化3路1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.499</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store234">
+    <ns1:name>中崙派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Naf261cae63534f38b95b803f5981cdf0">
+        <ns1:streetAddress>台北市長安東路2段229-1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.546</ns1:longitude>
+    <ns1:latitude>25.0484</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store178">
+    <ns1:name>松山派出所</ns1:name>
+    <ns1:latitude>25.0499</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1ac932d3dd834dd9a6d02dcfc6a997b6">
+        <ns1:streetAddress>台北市八德路四段692號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.576</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store75">
+    <ns1:name>臺北市政府消防局 信義分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd43d320416e6465cb0eab3fb083a0e39">
+        <ns1:streetAddress>台北市忠孝東路五段32號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0408</ns1:latitude>
+    <ns1:telephone>(02)27588864</ns1:telephone>
+    <ns1:longitude>121.569</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store224">
+    <ns1:name>武昌街派出所</ns1:name>
+    <ns1:latitude>25.0479</ns1:latitude>
+    <ns1:longitude>121.507</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N23e7e90f18a54a0c9aef8e9468784dd6">
+        <ns1:streetAddress>台北市西寧南路4號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store131">
+    <ns1:longitude>121.517</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N586dd0a93c9b4afaab6c39c626604462">
+        <ns1:streetAddress>台北市民生西路198號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.057</ns1:latitude>
+    <ns1:name>雙連派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store205">
+    <ns1:longitude>121.552</ns1:longitude>
+    <ns1:latitude>25.1184</ns1:latitude>
+    <ns1:name>永福派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nae38eeb6ec0c43eeb322aa2f339803bd">
+        <ns1:streetAddress>台北市仰德大道三段49號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store114">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N17f32544fbfb4f16b9a804f8a255885d">
+        <ns1:streetAddress>臺北市松山區三民路5號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.564</ns1:longitude>
+    <ns1:name>西松國小</ns1:name>
+    <ns1:latitude>25.0522</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store84">
+    <ns1:longitude>121.507</ns1:longitude>
+    <ns1:name>聯合醫院和平院區</ns1:name>
+    <ns1:latitude>25.0356</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1c44e1b14f6f4e9eb3c34889c691f62b">
+        <ns1:streetAddress>台北市中華路二段33號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2388-9595</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store106">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6153d2abaaf649c29381de0628c27b68">
+        <ns1:streetAddress>臺北市大安區愛國東路79巷11號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.528</ns1:longitude>
+    <ns1:latitude>25.0323</ns1:latitude>
+    <ns1:name>金華國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store177">
+    <ns1:longitude>121.607</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N701b2ebb94b245af82e72e48f9779ae5">
+        <ns1:streetAddress>台北市興中路12巷2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0549</ns1:latitude>
+    <ns1:name>南港派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store111">
+    <ns1:longitude>121.552</ns1:longitude>
+    <ns1:name>民族國小</ns1:name>
+    <ns1:latitude>25.0595</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb56385f98b704d97ad43f88928d91c94">
+        <ns1:streetAddress>臺北市松山區民生東路4段97巷7號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store239">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.501</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nc91f3c465d9d484b800b0025c962b875">
+        <ns1:streetAddress>台北市中央北路一段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>北投分局</ns1:name>
+    <ns1:latitude>25.1333</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store229">
+    <ns1:name>永明派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N61dd1b96d2b94a1da094337cf6bbd370">
+        <ns1:streetAddress>台北市石牌路二段101號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.1179</ns1:latitude>
+    <ns1:longitude>121.517</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store206">
+    <ns1:name>舊庄派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne2fca56fb82f4d46bd5b26c8472c7fdd">
+        <ns1:streetAddress>台北市舊莊街一段213號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.623</ns1:longitude>
+    <ns1:latitude>25.0385</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store220">
+    <ns1:longitude>121.564</ns1:longitude>
+    <ns1:name>木柵派出所</ns1:name>
+    <ns1:latitude>24.9888</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N48a17a27443c465ca166cec03b6d1307">
+        <ns1:streetAddress>台北市木柵路二段202號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store209">
+    <ns1:name>忠孝東路派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1cfb5e15501e446ab3e644d62034a29e">
+        <ns1:streetAddress>台北市忠孝東路二段10號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.527</ns1:longitude>
+    <ns1:latitude>25.0437</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store88">
+    <ns1:telephone>(02)2833-2211</ns1:telephone>
+    <ns1:name>私立新光醫院</ns1:name>
+    <ns1:longitude>121.52</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N7bede584f8c04be09903c0eb824829a5">
+        <ns1:streetAddress>台北市文昌路95號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0962</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store117">
+    <ns1:latitude>25.0447</ns1:latitude>
+    <ns1:longitude>121.579</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N58d569bf722542aaa4c13f46b83cd63f">
+        <ns1:streetAddress>臺北市信義區松山路225巷48號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>永春國小</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store32">
+    <ns1:latitude>25.0022</ns1:latitude>
+    <ns1:longitude>121.567</ns1:longitude>
+    <ns1:name>臺北市政府消防局 萬芳分隊</ns1:name>
+    <ns1:telephone>(02)22305720</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2752ac781f014154a28f9a2a43a68bf9">
+        <ns1:streetAddress>台北市萬美街一段52號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store190">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6ad5c50d4ab749a79587fdfd0fc242ef">
+        <ns1:streetAddress>台北市中山北路二段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.523</ns1:longitude>
+    <ns1:latitude>25.0525</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>中山分局</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store223">
+    <ns1:longitude>121.515</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0596</ns1:latitude>
+    <ns1:name>大同分局</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfdf8cde45429429682b01a909a1bc488">
+        <ns1:streetAddress>台北市錦西街200號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store110">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4ebb84e7a39b48d09f06c913febc5e81">
+        <ns1:streetAddress>臺北市萬華區西藏路201號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>萬華國中</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0291</ns1:latitude>
+    <ns1:longitude>121.499</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store71">
+    <ns1:telephone>(02)2543-3535</ns1:telephone>
+    <ns1:name>私立馬偕紀念醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N7116e100f8c249a2a1c57c0743369fed">
+        <ns1:streetAddress>台北市中山北路二段92號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.523</ns1:longitude>
+    <ns1:latitude>25.0589</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store2">
+    <ns1:longitude>121.51</ns1:longitude>
+    <ns1:latitude>25.1165</ns1:latitude>
+    <ns1:name>北投運動中心</ns1:name>
+    <ns1:telephone>2820-2880</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Na29e41a8444a43558016815712f6f2cd">
+        <ns1:streetAddress>臺北市北投區石牌路1段39巷100號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store120">
+    <ns1:name>成德國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N8f77369bf099434187ee192fe6cbfb05">
+        <ns1:streetAddress>臺北市南港區東新街65號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.587</ns1:longitude>
+    <ns1:latitude>25.0469</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store211">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>交通警察大隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ndc26bb1a330549f08c1f09998877438b">
+        <ns1:streetAddress>台北市北平東路1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0473</ns1:latitude>
+    <ns1:longitude>121.521</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store53">
+    <ns1:longitude>121.555</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nec40a120d4d04c54afb9d5e5d1e91ca7">
+        <ns1:streetAddress>台北市樟新街2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)29395140</ns1:telephone>
+    <ns1:latitude>24.9799</ns1:latitude>
+    <ns1:name>臺北市政府消防局 寶橋分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store42">
+    <ns1:name>聯合醫院林森中醫院區</ns1:name>
+    <ns1:telephone>(02)23887088</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4aa852af66de4482aae1b05bbcf4811a">
+        <ns1:streetAddress>台北市林森北路530號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.526</ns1:longitude>
+    <ns1:latitude>25.0633</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store107">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.1347</ns1:latitude>
+    <ns1:name>桃源國中</ns1:name>
+    <ns1:longitude>121.477</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N508c88a3870940eeb2404e6083455bb0">
+        <ns1:streetAddress>臺北市北投區中央北路四段48號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store202">
+    <ns1:longitude>121.539</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0039</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N04667b0d96ab40ff82c6b805261f535c">
+        <ns1:streetAddress>台北市羅斯福路五段151號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>萬盛派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store225">
+    <ns1:name>博愛路派出所</ns1:name>
+    <ns1:latitude>25.0418</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne14d07e31708448594f8a4c9f38210e3">
+        <ns1:streetAddress>台北市博愛路119號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.512</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store7">
+    <ns1:latitude>25.0382</ns1:latitude>
+    <ns1:name>中正運動中心</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N75f81fb10dd64fecadba6a7b363661fd">
+        <ns1:streetAddress>臺北市中正區信義路1段1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>3322-5016</ns1:telephone>
+    <ns1:longitude>121.519</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store219">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0404</ns1:latitude>
+    <ns1:name>敦化南路派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2b6d7c8248c84df19119bb7be3f4c88b">
+        <ns1:streetAddress>台北市敦化南路一段236巷26號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.547</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store91">
+    <ns1:telephone>(02)2751-0221</ns1:telephone>
+    <ns1:name>私立中心診所醫院</ns1:name>
+    <ns1:longitude>121.547</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4b387d067c98441da45744f7f9036649">
+        <ns1:streetAddress>台北市忠孝東路四段77號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0418</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store30">
+    <ns1:name>私立宏恩醫院</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1b1dce227f0d45a1962481cf3d702780">
+        <ns1:streetAddress>台北市仁愛路四段71巷1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2771-3161</ns1:telephone>
+    <ns1:longitude>121.547</ns1:longitude>
+    <ns1:latitude>25.0382</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store222">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>萬華分局</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N13a626469833450797126ee75aa61526">
+        <ns1:streetAddress>台北市康定路22號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0451</ns1:latitude>
+    <ns1:longitude>121.503</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store167">
+    <ns1:latitude>25.0331</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N951b5f1b14484ef3b10eefe97a8a81d5">
+        <ns1:streetAddress>台北市信義路五段17號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.568</ns1:longitude>
+    <ns1:name>三張犁派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store157">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2823b48119f24011b585cfc11c927c00">
+        <ns1:streetAddress>台北市敦化北路199巷5-1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>東社派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.551</ns1:longitude>
+    <ns1:latitude>25.0567</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store98">
+    <ns1:longitude>121.505</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.1195</ns1:latitude>
+    <ns1:name>立農國小</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nfce2f0174cde4cbf8ea6e36c85b7fa0e">
+        <ns1:streetAddress>臺北市北投區立農街1段250號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store100">
+    <ns1:name>明湖國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N11ce1e223f954efaad762401c2b191d9">
+        <ns1:streetAddress>臺北市內湖區康寧路3段105號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.611</ns1:longitude>
+    <ns1:latitude>25.0711</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store86">
+    <ns1:latitude>25.0499</ns1:latitude>
+    <ns1:name>私立博仁醫院</ns1:name>
+    <ns1:telephone>(02)2578-6677</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd18830476b014283b93f9558b3074170">
+        <ns1:streetAddress>台北市光復北路66號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.558</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store123">
+    <ns1:name>大安國中</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5956fcf70aa04a0bb3caebf489920958">
+        <ns1:streetAddress>臺北市大安區龍雲里大安路2段63號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0308</ns1:latitude>
+    <ns1:longitude>121.546</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store22">
+    <ns1:longitude>121.521</ns1:longitude>
+    <ns1:telephone>(02)23412668</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1c7b332a6f2348738ca817fe67151f0a">
+        <ns1:streetAddress>台北市北平東路1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 華山分隊</ns1:name>
+    <ns1:latitude>25.0473</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store54">
+    <ns1:telephone>(02)27906940</ns1:telephone>
+    <ns1:longitude>121.578</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N90b1c53b16d7432d947540c28116b904">
+        <ns1:streetAddress>台北市民權東路六段9號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 民權分隊</ns1:name>
+    <ns1:latitude>25.0669</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store85">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6e5c7651f6204d3c9430fec0f9827d12">
+        <ns1:streetAddress>台北市農安街227巷9弄24號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0658</ns1:latitude>
+    <ns1:telephone>(02)2505-7030</ns1:telephone>
+    <ns1:name>一心救護車事業有限公司</ns1:name>
+    <ns1:longitude>121.535</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store165">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>重慶北路派出所</ns1:name>
+    <ns1:latitude>25.0754</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N8a3f08f8023c4ef2b66dcaa29646fb62">
+        <ns1:streetAddress>台北市重慶北路三段320-2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.514</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store56">
+    <ns1:name>臺北市政府消防局 天母分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4eecd6111acf4e54ad29dd2e593b051d">
+        <ns1:streetAddress>台北市中山北路七段194號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.533</ns1:longitude>
+    <ns1:telephone>(02)28714111</ns1:telephone>
+    <ns1:latitude>25.1252</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store235">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd01653fe0ada4054a4e71e37e95c593f">
+        <ns1:streetAddress>台北市信義路四段216號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>安和路派出所</ns1:name>
+    <ns1:longitude>121.552</ns1:longitude>
+    <ns1:latitude>25.033</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store4">
+    <ns1:name>南港運動中心</ns1:name>
+    <ns1:longitude>121.582</ns1:longitude>
+    <ns1:latitude>25.0489</ns1:latitude>
+    <ns1:telephone>2653-2279</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne8c8a395d61b454fb5b32d1c9c2f30e5">
+        <ns1:streetAddress>臺北市南港區玉成街69號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store119">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0312</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N61d7b99275a44c32821a4452037a6787">
+        <ns1:streetAddress>臺北市大安區新生南路2段32號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.533</ns1:longitude>
+    <ns1:name>金華國中</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store29">
+    <ns1:name>聯合醫院中興院區</ns1:name>
+    <ns1:latitude>25.051</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3e0516a754d1471185d5b5ab909bf63f">
+        <ns1:streetAddress>台北市鄭州路145號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2552-3234</ns1:telephone>
+    <ns1:longitude>121.509</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store59">
+    <ns1:name>臺北市政府消防局 圓山分隊</ns1:name>
+    <ns1:longitude>121.53</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nce9123d3bfcc45dc8f5f8d95e0796c12">
+        <ns1:streetAddress>台北市民族東路41號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)25913384</ns1:telephone>
+    <ns1:latitude>25.0686</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store199">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N115b7b359da6462eb108e6620dfbd6d1">
+        <ns1:streetAddress>台北市公園路15號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0451</ns1:latitude>
+    <ns1:name>中正第一分局</ns1:name>
+    <ns1:longitude>121.517</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store188">
+    <ns1:latitude>25.0266</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4042128b338643519cd59ba7505fef3c">
+        <ns1:streetAddress>台北市和平東路一段143號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.531</ns1:longitude>
+    <ns1:name>和平東路派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store128">
+    <ns1:name>光復國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0403</ns1:latitude>
+    <ns1:longitude>121.558</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N64cc572c1d234dc58b27f838c526b302">
+        <ns1:streetAddress>臺北市信義區光復南路271號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store15">
+    <ns1:longitude>121.496</ns1:longitude>
+    <ns1:latitude>25.0285</ns1:latitude>
+    <ns1:telephone>(02)23053374</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4ff905e649ec4cf7942dff32f3daa7ff">
+        <ns1:streetAddress>台北市西藏路213之1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 雙園分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store44">
+    <ns1:telephone>(02)27906455</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N087b535094b04e5596148640f30d9c27">
+        <ns1:streetAddress>台北市成功路五段5號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.084</ns1:latitude>
+    <ns1:name>臺北市政府消防局 大湖分隊</ns1:name>
+    <ns1:longitude>121.602</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store23">
+    <ns1:latitude>24.9924</ns1:latitude>
+    <ns1:longitude>121.541</ns1:longitude>
+    <ns1:telephone>(02)29311405</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N86f241f86bce45aca4cf2f487d7ace02">
+        <ns1:streetAddress>台北市景文街30號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>臺北市政府消防局 景美分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store49">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N32476f9d7eea411490271f10f3971137">
+        <ns1:streetAddress>台北市西園路二段276號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0276</ns1:latitude>
+    <ns1:name>私立西園醫院</ns1:name>
+    <ns1:longitude>121.494</ns1:longitude>
+    <ns1:telephone>(02)2307-6968</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store226">
+    <ns1:latitude>25.0377</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N48767a603ab048a08e1f0185e78cf14c">
+        <ns1:streetAddress>台北市仁愛路三段18號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.534</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>新生南路派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store50">
+    <ns1:telephone>(02)28616119</ns1:telephone>
+    <ns1:name>臺北市政府消防局 陽明山分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nc886eeea723d43e59ce5ad70dcf3e891">
+        <ns1:streetAddress>台北市勝利街1之2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1515</ns1:latitude>
+    <ns1:longitude>121.546</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store137">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>24.9888</ns1:latitude>
+    <ns1:name>文山第一分局</ns1:name>
+    <ns1:longitude>121.564</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbe7c64b7cba24eb3883f3d15fa03cf98">
+        <ns1:streetAddress>台北市木柵路二段202號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store97">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2b2076d867db44dd87fbcc284fdfc8c8">
+        <ns1:streetAddress>臺北市中山區北安路420號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.543</ns1:longitude>
+    <ns1:latitude>25.0795</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>大直高中</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store26">
+    <ns1:name>聯安救護車有限公司</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Naf75b7b882da4251bad1ce2ec33eeb22">
+        <ns1:streetAddress>台北市仁愛路四段63號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)2721-9595</ns1:telephone>
+    <ns1:longitude>121.547</ns1:longitude>
+    <ns1:latitude>25.0382</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store243">
+    <ns1:longitude>121.519</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Na9bce0fe68c2466f849ce2e3480e2352">
+        <ns1:streetAddress>台北市華陰街32號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0492</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>捷運警察隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store227">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>介壽路派出所</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ncf718add541445ffbec543e2e07fbfb2">
+        <ns1:streetAddress>台北市公園路54號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.516</ns1:longitude>
+    <ns1:latitude>25.04</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store51">
+    <ns1:name>陽明教養院</ns1:name>
+    <ns1:longitude>121.541</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne09f95cf74f34a6e8d450deb650db84a">
+        <ns1:streetAddress>台北市凱旋路61巷4弄9號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1352</ns1:latitude>
+    <ns1:telephone>(02)2861-1380</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store101">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.509</ns1:longitude>
+    <ns1:latitude>25.0353</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ndb9735c0f13f44d7919341634ce45725">
+        <ns1:streetAddress>臺北市中正區廣州街6號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>南門國小</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store197">
+    <ns1:longitude>121.511</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6e2ec3e41a0e474dbd4e0c5737619f73">
+        <ns1:streetAddress>台北市延平北路三段2號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>大橋派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0633</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store0">
+    <ns1:latitude>25.0648</ns1:latitude>
+    <ns1:name>大同運動中心</ns1:name>
+    <ns1:telephone>2592-0055</ns1:telephone>
+    <ns1:longitude>121.516</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf79cca36fd6849baac67bd77da9cac75">
+        <ns1:streetAddress>臺北市大龍街51號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store99">
+    <ns1:longitude>121.503</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1602465b3ce54c9b9e2105b6d124fb16">
+        <ns1:streetAddress>臺北市士林區延平北路6段308號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>社子國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0898</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store156">
+    <ns1:longitude>121.545</ns1:longitude>
+    <ns1:name>瑞安街派出所</ns1:name>
+    <ns1:latitude>25.0311</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nf367423467234843bd4367ff973aa999">
+        <ns1:streetAddress>台北市瑞安街23巷17號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store152">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>松山分局</ns1:name>
+    <ns1:longitude>121.548</ns1:longitude>
+    <ns1:latitude>25.0515</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N212c6903be6445ed816b104e3b700b87">
+        <ns1:streetAddress>台北市南京東路三段340號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store162">
+    <ns1:name>溪山派出所</ns1:name>
+    <ns1:longitude>121.585</ns1:longitude>
+    <ns1:latitude>25.1197</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N28bf28e3f0b14f038dacbe9c2b06eb12">
+        <ns1:streetAddress>台北市至善路三段263號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store66">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nb6c2d8dca07b4d21b5abba03d67accdc">
+        <ns1:streetAddress>台北市木柵路二段200號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.563</ns1:longitude>
+    <ns1:telephone>(02)29391604</ns1:telephone>
+    <ns1:name>臺北市政府消防局 木柵分隊</ns1:name>
+    <ns1:latitude>24.9888</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store141">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N5d121a219755410f9fb3a08fbaee6196">
+        <ns1:streetAddress>台北市延平北路一段86號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0522</ns1:latitude>
+    <ns1:longitude>121.512</ns1:longitude>
+    <ns1:name>延平派出所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store93">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N317a6fcdf02b4bcba4f32cc81167ed1d">
+        <ns1:streetAddress>台北市復興南路二段92號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.543</ns1:longitude>
+    <ns1:name>臺北市政府消防局 復興分隊</ns1:name>
+    <ns1:telephone>(02)27067965</ns1:telephone>
+    <ns1:latitude>25.03</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store136">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Neec578bc36eb4398ad6f1d7462bbc381">
+        <ns1:streetAddress>台北市信義路五段17號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.568</ns1:longitude>
+    <ns1:latitude>25.0331</ns1:latitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>信義分局</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store116">
+    <ns1:longitude>121.559</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>24.9989</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N149f774be5964563889a9401fd6bb68b">
+        <ns1:streetAddress>臺北市文山區興隆路3段125巷6號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>興華國小</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store104">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne0cfe16b1de44a1e872e2464c29ce932">
+        <ns1:streetAddress>臺北市南港區興南街62號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>東新國小</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0554</ns1:latitude>
+    <ns1:longitude>121.602</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store210">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N13f5dee9913e4c7fb3400fd0c89d55f1">
+        <ns1:streetAddress>台北市長安東路二段165號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.541</ns1:longitude>
+    <ns1:name>長安東路派出所</ns1:name>
+    <ns1:latitude>25.0484</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store230">
+    <ns1:name>後港派出所</ns1:name>
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nbad1b613dc1d47eabe9fe0b51e876874">
+        <ns1:streetAddress>台北市福港街151號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.0873</ns1:latitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store173">
+    <ns1:longitude>121.547</ns1:longitude>
+    <ns1:name>復興派出所</ns1:name>
+    <ns1:latitude>24.9868</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N04ebb05717ac41edb4b6f2d9d5ef4583">
+        <ns1:streetAddress>台北市木柵路一段54號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store60">
+    <ns1:name>臺北市政府消防局 雙溪分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N27515e49bea849a3b4c848f6948245d8">
+        <ns1:streetAddress>台北市至善路二段41號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:longitude>121.545</ns1:longitude>
+    <ns1:latitude>25.0976</ns1:latitude>
+    <ns1:telephone>(02)88611296</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store34">
+    <ns1:latitude>25.0792</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nef5f33441b194eb486b5494f0faffbb5">
+        <ns1:streetAddress>台北市延平北路五段2之1號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)28118221</ns1:telephone>
+    <ns1:name>臺北市政府消防局 社子分隊</ns1:name>
+    <ns1:longitude>121.511</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store175">
+    <ns1:latitude>25.0728</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N86daf9ec9acc4283afd24c15485ed28b">
+        <ns1:streetAddress>台北市中山北路三段62號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>圓山派出所</ns1:name>
+    <ns1:longitude>121.524</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store95">
+    <ns1:name>潭美國小</ns1:name>
+    <ns1:latitude>25.0603</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N0a0bd3461afa4cae90126d0f0b66be1c">
+        <ns1:streetAddress>臺北市內湖區新明路22號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:longitude>121.591</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store115">
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>重慶國中</ns1:name>
+    <ns1:longitude>121.518</ns1:longitude>
+    <ns1:latitude>25.0759</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N4cf06d45487a4272aa8ee7bc75c8694d">
+        <ns1:streetAddress>臺北市大同區敦煌路19號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store36">
+    <ns1:name>臺北市政府消防局 金華分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nd8533f5f0f554949894815ddaf7ec3ec">
+        <ns1:streetAddress>台北市愛國東路79巷13號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)23917653</ns1:telephone>
+    <ns1:latitude>25.0326</ns1:latitude>
+    <ns1:longitude>121.528</ns1:longitude>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store228">
+    <ns1:latitude>25.0442</ns1:latitude>
+    <ns1:longitude>121.51</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3340c5cbc93e4479a7b5c1464732aa82">
+        <ns1:streetAddress>台北市武昌街一段69號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:name>刑事警察大隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store24">
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N43f60abd08094bda8c637f0f258cfa18">
+        <ns1:streetAddress>台北市光明路167號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:latitude>25.1357</ns1:latitude>
+    <ns1:longitude>121.503</ns1:longitude>
+    <ns1:telephone>(02)2893-5367</ns1:telephone>
+    <ns1:name>私立松柏老人養護所</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store18">
+    <ns1:latitude>25.0245</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N3df98c15f69b49c98357fc12487e16db">
+        <ns1:streetAddress>台北市泉州街40號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>(02)23374679</ns1:telephone>
+    <ns1:longitude>121.512</ns1:longitude>
+    <ns1:name>臺北市政府消防局 泉州分隊</ns1:name>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store55">
+    <ns1:latitude>25.0456</ns1:latitude>
+    <ns1:longitude>121.569</ns1:longitude>
+    <ns1:telephone>(02)27675126</ns1:telephone>
+    <ns1:name>臺北市政府消防局 永吉分隊</ns1:name>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Ne6cab2a4925d4c59bf73db5565b32a67">
+        <ns1:streetAddress>台北市永吉路48號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store140">
+    <ns1:longitude>121.569</ns1:longitude>
+    <ns1:name>西湖派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.0792</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="Nee46548dc0ca4d9e93cf6b58c1e0255b">
+        <ns1:streetAddress>台北市瑞光路515號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store130">
+    <ns1:longitude>121.508</ns1:longitude>
+    <ns1:name>奇岩派出所</ns1:name>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:latitude>25.1276</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N6a2ee9c903e24fa99f33d4d09c60ccbb">
+        <ns1:streetAddress>台北市公館路209巷11號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store214">
+    <ns1:name>蘭雅派出所</ns1:name>
+    <ns1:longitude>121.525</ns1:longitude>
+    <ns1:latitude>25.1065</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N2af04209d50b4bbab84c6c7042844c60">
+        <ns1:streetAddress>台北市中山北路六段153號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+    <ns1:telephone>0000</ns1:telephone>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store189">
+    <ns1:longitude>121.595</ns1:longitude>
+    <ns1:telephone>0000</ns1:telephone>
+    <ns1:name>玉成派出所</ns1:name>
+    <ns1:latitude>25.054</ns1:latitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N1027c44822174527abd56556f48cb445">
+        <ns1:streetAddress>台北市向陽路150號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://140.109.21.188/facilities#store61">
+    <ns1:name>臺北市政府消防局 石牌分隊</ns1:name>
+    <ns1:telephone>(02)28213119</ns1:telephone>
+    <ns1:latitude>25.1179</ns1:latitude>
+    <ns1:longitude>121.517</ns1:longitude>
+    <ns1:address>
+      <rdf:Description rdf:nodeID="N580566a1bfa94fb4a187b033c3a5a847">
+        <ns1:streetAddress>台北市石牌路二段101號</ns1:streetAddress>
+      </rdf:Description>
+    </ns1:address>
+  </ns2:Location>
+</rdf:RDF>
+

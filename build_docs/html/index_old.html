@@ -1,0 +1,714 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Extractor and Mapper’s Documentation! &mdash; X2R 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="X2R 1.0 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="extractor-and-mapper-s-documentation">
+<h1>Extractor and Mapper&#8217;s Documentation!<a class="headerlink" href="#extractor-and-mapper-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">test title</a></li>
+</ul>
+</div>
+<div class="section" id="user-guide">
+<h2>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="extractor">
+<h3>Extractor<a class="headerlink" href="#extractor" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>For an input RDF content, this extractor service extracts terms from URIs of the RDF content.</p>
+<dl class="post">
+<dt id="post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}">
+<tt class="descname">POST </tt><tt class="descname">/extractor{?excludedNamespaces, checkUrisStatus, rdfContent}</tt><a class="headerlink" href="#post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>excludedNamespaces</strong> &#8211; <em>(optional)</em> This specifies a list of namespaces to be skipped. That is, if a found URI belonged to this list, the URI will not be processed anymore.</li>
+<li><strong>checkUrisStatus</strong> &#8211; <em>(required)</em> This determines if <cite>extractor</cite> checks the status codes of found URIs.</li>
+<li><strong>rdfContent</strong> &#8211; <em>(required)</em> This specifies the content of RDF to be processed.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; application/json</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">excludedNamespace:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">checkUrisStatus:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">rdfContent:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<p>Content-Type: application/json</p>
+<p>Response template:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">{</span><span class="s">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">[],</span>
+ <span class="s">&quot;mapping&quot;</span><span class="p">:</span>
+             <span class="p">[{</span><span class="s">&quot;status&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+               <span class="s">&quot;originalURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+               <span class="s">&quot;replacedURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+               <span class="s">&quot;term&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+               <span class="s">&quot;lineNumbers&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span>
+              <span class="p">}</span>
+             <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>mapping entry:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">[{</span><span class="s">&quot;status&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+  <span class="s">&quot;originalURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+  <span class="s">&quot;replacedURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+  <span class="s">&quot;term&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+  <span class="s">&quot;lineNumbers&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span>
+ <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p><strong>Example request</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre><span class="nf">POST</span> <span class="nn">/extractor?excludedNamespaces&amp;checkUrisStatus&amp;rdfContent</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</pre></div>
+</div>
+<p><strong>Example response</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre> HTTP/1.1 200 OK
+ Vary: Accept
+ Content-Type: application/json
+
+{&quot;metadata&quot;: [
+        ],
+ &quot;mapping&quot;:
+        [{&quot;status&quot;: &quot;N/A&quot;,
+          &quot;originalURI&quot;: &quot;http://127.0.0.1/autoGeneratedUri&quot;,
+          &quot;replacedURI&quot;: &quot;&quot;,
+          &quot;term&quot;: &quot;auto generated uri&quot;,
+          &quot;lineNumbers&quot;: &quot;3, 31&quot;
+         }
+        ]
+}
+</pre></div>
+</div>
+</div></blockquote>
+<dl class="docutils">
+<dt><strong>See also:</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference internal" href="mapper_api.html"><em>Mapper&#8217;s Web API</em></a></li>
+</ul>
+</dd>
+</dl>
+<dl class="post">
+<dt id="post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}">
+<tt class="descname">POST </tt><tt class="descname">/extractor{?excludedNamespaces, checkUrisStatus, rdfContent}</tt><a class="headerlink" href="#post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>excludedNamespaces</strong> &#8211; The serialized array excludedNamespaces specified the namespaces, which are skipped from processing. Default is <tt class="docutils literal"><span class="pre">[]</span></tt>.</li>
+<li><strong>checkUrisStatus</strong> &#8211; Boolean checkURIsStatus is used to turn on or off the status checking over each extracted URIs based on its value as True or False, respectively. Default is <tt class="docutils literal"><span class="pre">False</span></tt>.</li>
+<li><strong>rdfContent</strong> &#8211; String rdfContent is the content from the targeting RDF file.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; this depends on <em class="mailheader">Accept</em>
+header of request</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div></blockquote>
+</div>
+<div class="section" id="mapper">
+<h3>Mapper<a class="headerlink" href="#mapper" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><blockquote>
+<div>Given a RDF content, a URI mapping and an output format, this mapper service replaces URIs based on the URI mapping and return a RDF file in the output format</div></blockquote>
+<dl class="post">
+<dt id="post--mapper{?rdfContent, mapping, format}">
+<tt class="descname">POST </tt><tt class="descname">/mapper{?rdfContent, mapping, format}</tt><a class="headerlink" href="#post--mapper{?rdfContent, mapping, format}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>rdfContent</strong> &#8211; (required) This specifies the content of RDF to be processed.</li>
+<li><strong>mapping</strong> &#8211; (required) This specifies the information needed for <cite>mapper</cite> to update the URIs found in rdfContent.</li>
+<li><strong>format</strong> &#8211; (optional) This specifies the format of output.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; application/rdf+xml</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">rdfContent:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">mapping:</th><td class="field-body"></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">format:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+<p>Content-Type: application/rdf+xml</p>
+<blockquote>
+<div><p><strong>Example request</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre><span class="nf">POST</span> <span class="nn">/mapper?rdfContent&amp;mapping&amp;format</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+</pre></div>
+</div>
+<p><strong>Example response</strong>:</p>
+<div class="highlight-http"><div class="highlight"><pre> HTTP/1.1 200 OK
+ Vary: Accept
+ Content-Type: application/rdf+xml
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    &lt;rdf:RDF
+        xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot;
+        xmlns:geo=&quot;http://www.w3.org/2003/01/geo/wgs84_pos#&quot;
+        xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema#&quot;&gt;
+&lt;rdf:Description rdf:about=&quot;http://openisdm.iis.sinica.edu.tw/VR/DaTongSportsCenter&quot;&gt;
+    &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing&quot;/&gt;
+    &lt;updatedAt xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;
+        rdf:datatype=&quot;http://www.w3.org/2001/XMLSchema#dateTime&quot;&gt;2013-07-31T03:23:47Z&lt;/updatedAt&gt;
+    &lt;geo:long&gt;121.516&lt;/geo:long&gt;
+    &lt;hasTelephone xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;&gt;2592-0055&lt;/hasTelephone&gt;
+    &lt;hasName xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;&gt;Da Tong Sports Center&lt;/hasName&gt;
+    &lt;geo:location&gt;No.51, Dalong St., Datong Dist., Taipei City 103, Taiwan (R.O.C.)&lt;/geo:location&gt;
+    &lt;usedFor xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;&gt;Sport&lt;/usedFor&gt;
+    &lt;createdAt xmlns=&quot;http://openisdm.iis.sinica.edu.tw/VR/&quot;
+        rdf:datatype=&quot;http://www.w3.org/2001/XMLSchema#dateTime&quot;&gt;2012-11-28T09:05:13Z&lt;/createdAt&gt;
+    &lt;geo:lat&gt;25.0648&lt;/geo:lat&gt;
+&lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre></div>
+</div>
+</div></blockquote>
+<dl class="docutils">
+<dt><strong>See also:</strong></dt>
+<dd><ul class="first last simple">
+<li><a class="reference internal" href="extractor_api.html"><em>Extractor&#8217;s Web API</em></a></li>
+</ul>
+</dd>
+</dl>
+<dl class="post">
+<dt id="post--mapper{?rdfContent, mapping, format}">
+<tt class="descname">POST </tt><tt class="descname">/mapper{?rdfContent, mapping, format}</tt><a class="headerlink" href="#post--mapper{?rdfContent, mapping, format}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>rdfContent</strong> &#8211; String rdfContent is the content from the targeting RDF file.</li>
+<li><strong>mapping</strong> &#8211; String mapping is serialized from a json structure, which contains the information needed for mapper to update the URIs.</li>
+<li><strong>format</strong> &#8211; String format specifies the format of output. Default is <tt class="docutils literal"><span class="pre">xml</span></tt>, which stands for RDF/XML.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; this depends on <em class="mailheader">Accept</em>
+header of request</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div></blockquote>
+</div>
+<div class="section" id="extractor-obsolete">
+<h3>Extractor_Obsolete<a class="headerlink" href="#extractor-obsolete" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><cite>Prerequist</cite>: Prepare the input as acceptable RDF file formats, including</p>
+<ul class="simple">
+<li>hturtle</li>
+<li>microdata</li>
+<li>n3</li>
+<li>nquads</li>
+<li>nt</li>
+<li>rdfa</li>
+<li>rdfa1.0</li>
+<li>rdfa1.1</li>
+<li>trix</li>
+<li>turtle</li>
+<li>xml</li>
+</ul>
+</li>
+<li><p class="first"><cite>Input</cite>:</p>
+<ul>
+<li><p class="first">By specifying the parameter, <em>excludenamespaces</em>, in the form of jsohifized list, extractor can skip URIs belonged to the excludenamespaces during the processing. For example, DBpedia is a truthworth URI holding site, users might not want to replace URIs belonged to it.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param:</th><td class="field-body">excludenamespace</td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string (jsonified list)</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p class="first">HTTP response status codes can be used to determine if a URI is still responsive. The parameter, <em>status</em>, is set as <em>True</em> or <em>False</em> to activate or deactivate the checking of status codes for found URIs, respectively. Since the considerable latency of checking status codes, the users who care about the performance or have big RDF files will be suggested to set the parameter <em>status</em>, as False.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param:</th><td class="field-body">status_check</td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">boolean</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p class="first">The parameter <em>data</em> is used to input the content of RDF as a string. The line escape chars, such as &#8220;\n&#8221;, should be explicitly included in the string, or the functionality of lineNumber will not perform as your expectation.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param:</th><td class="field-body">data</td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li><p class="first"><cite>Major Processes</cite>:</p>
+<ol class="arabic simple">
+<li>Analyze and filter URIs from the input RDF</li>
+<li>Extract terms from URIs</li>
+<li>Verify the extracted terms</li>
+</ol>
+</li>
+<li><p class="first"><cite>Output</cite>:</p>
+<p>The output is encoded in json format. The skeleton of output and an example are presented below.</p>
+</li>
+</ul>
+<p>Output skeleton:</p>
+<div class="highlight-python"><div class="highlight"><pre>    {&quot;metadata&quot;: [],
+    &quot;mapping&quot;:
+[{&quot;status&quot;: &quot;&quot;,
+      &quot;originalURI&quot;: &quot;&quot;,
+      &quot;replacedURI&quot;: &quot;&quot;,
+      &quot;term&quot;: &quot;&quot;,
+      &quot;lineNumbers&quot;: &quot;&quot;}]}
+</pre></div>
+</div>
+<p>Example of the output:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">{</span><span class="s">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">[],</span>
+    <span class="s">&quot;mapping&quot;</span><span class="p">:</span>
+<span class="p">[{</span><span class="s">&quot;status&quot;</span><span class="p">:</span> <span class="s">&quot;N/A&quot;</span><span class="p">,</span>
+      <span class="s">&quot;originalURI&quot;</span><span class="p">:</span> <span class="s">&quot;http://140.109.21.188/facilities#store214&quot;</span><span class="p">,</span>
+      <span class="s">&quot;replacedURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+      <span class="s">&quot;term&quot;</span><span class="p">:</span> <span class="s">&quot;facilities store214&quot;</span><span class="p">,</span>
+      <span class="s">&quot;lineNumbers&quot;</span><span class="p">:</span> <span class="s">&quot;3,31&quot;</span><span class="p">},</span>
+     <span class="p">{</span><span class="s">&quot;status&quot;</span><span class="p">:</span> <span class="s">&quot;N/A&quot;</span><span class="p">,</span>
+      <span class="s">&quot;originalURI&quot;</span><span class="p">:</span> <span class="s">&quot;http://140.109.21.188/facilities#store190&quot;</span><span class="p">,</span>
+      <span class="s">&quot;replacedURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+      <span class="s">&quot;term&quot;</span><span class="p">:</span> <span class="s">&quot;facilities store190&quot;</span><span class="p">,</span>
+      <span class="s">&quot;lineNumbers&quot;</span><span class="p">:</span> <span class="s">&quot;1,30&quot;</span><span class="p">}]}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mapper-obsolete">
+<h3>Mapper_Obsolete<a class="headerlink" href="#mapper-obsolete" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><cite>Prerequist 1</cite>: Prepare the input as acceptable RDF file</p>
+</li>
+<li><p class="first"><cite>Prerequist 2</cite>: Prepare the mapping from orignal URIs to replaced URIs</p>
+</li>
+<li><p class="first"><cite>Input</cite>:</p>
+<ul>
+<li><p class="first">The parameter <em>data</em> is used to input the content of RDF as a string. The line escape chars, such as &#8220;\n&#8221;, should be explicitly included in the string, or the functionality of lineNumber will not perform as your expectation.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param:</th><td class="field-body">data</td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p class="first">The parameter <em>mapping</em> specify the</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param:</th><td class="field-body">mapping</td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string (valid json string)</td>
+</tr>
+</tbody>
+</table>
+<p>Mapping skeleton:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">{</span><span class="s">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">[],</span>
+  <span class="s">&quot;mapping&quot;</span><span class="p">:</span>
+<span class="p">[{</span><span class="s">&quot;status&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+    <span class="s">&quot;originalURI&quot;</span><span class="p">:</span> <span class="s">&quot;must-have&quot;</span><span class="p">,</span>
+    <span class="s">&quot;replacedURI&quot;</span><span class="p">:</span> <span class="s">&quot;must-have&quot;</span><span class="p">,</span>
+    <span class="s">&quot;term&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+    <span class="s">&quot;lineNumbers&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">}]}</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">User can determine the RDF format of output by specifying the parameter <em>format</em>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param:</th><td class="field-body">format</td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>hturtle</li>
+<li>microdata</li>
+<li>n3</li>
+<li>nquads</li>
+<li>nt</li>
+<li>rdfa</li>
+<li>rdfa1.0</li>
+<li>rdfa1.1</li>
+<li>trix</li>
+<li>turtle</li>
+<li>xml</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p class="first"><cite>Major Process</cite>:</p>
+<ol class="arabic simple">
+<li>Replace orignal URIs with suggested URIs</li>
+</ol>
+</li>
+<li><p class="first"><cite>Output</cite>:</p>
+<p>RDF file in the format specified by the parameter <em>format</em>.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="general-concept">
+<h3>General Concept<a class="headerlink" href="#general-concept" title="Permalink to this headline">¶</a></h3>
+<p>Both extractor and mapper are realized in the form of web service. The default entry point of extractor service and mapper service are:</p>
+<ul class="simple">
+<li>Extractor: &lt;Your host domain&gt;/extractor</li>
+<li>Mapper: &lt;Your host domain&gt;/mapper</li>
+</ul>
+<p>They both use POST method to pass parameters, and the details of paramters are presented below.</p>
+<p>Extractor&#8217;s input parameters:</p>
+<blockquote>
+<div><ul class="simple">
+<li>excludedNamespaces</li>
+<li>checkUrisStatus</li>
+<li>rdfContent</li>
+</ul>
+</div></blockquote>
+<p>Extractor&#8217;s output:</p>
+<p>The output of extractor service is a mapping defined in Json format.</p>
+<p>Mapping template:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">{</span><span class="s">&quot;metadata&quot;</span><span class="p">:</span>  <span class="p">[],</span>
+ <span class="s">&quot;mapping&quot;</span><span class="p">:</span>   <span class="p">[</span>
+               <span class="p">{</span><span class="s">&quot;status&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+                <span class="s">&quot;originalURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+                <span class="s">&quot;replacedURI&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+                <span class="s">&quot;term&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span><span class="p">,</span>
+                <span class="s">&quot;lineNumbers&quot;</span><span class="p">:</span> <span class="s">&quot;&quot;</span>
+                <span class="p">}</span>
+              <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Mapper&#8217;s input parameters:</p>
+<blockquote>
+<div><ul class="simple">
+<li>rdfContent</li>
+<li>mapping</li>
+<li>format</li>
+</ul>
+</div></blockquote>
+<p>Mapper&#8217;s output:</p>
+</div>
+</div>
+<div class="section" id="developer-guide">
+<h2>Developer Guide<a class="headerlink" href="#developer-guide" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="convensions-coding-style-tools">
+<h3>Convensions, Coding Style, Tools<a class="headerlink" href="#convensions-coding-style-tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Coding Style: <em>PEP8</em></li>
+<li>Programming Language: <em>Python</em></li>
+<li>Documentation Language: <em>reStructuredText</em></li>
+<li>Documentation Tool: <em>Sphinx</em></li>
+<li>Testing Framework: <em>pyunit</em></li>
+<li>Dependency: <em>Flask, RDFLib and Requests</em></li>
+</ul>
+</div>
+<div class="section" id="extension">
+<h3>Extension<a class="headerlink" href="#extension" title="Permalink to this headline">¶</a></h3>
+<p>Three types of extensions can be contributed.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>The URIAnalyzer</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Whitelist filter</li>
+<li>URI status code analyzer</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>The Tokenizer</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Case based tokenizers</li>
+<li>Delimits based tokenizers</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li>The Verifizer</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Spell checking based verifizer</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="testing">
+<h3>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h3>
+<p>Seven representive tests for tokenizer is defined in the <em>TokenizerTest</em> as follows. Developers, who tend to modify or extend this project should pass these tests. If there are some more typical tests, developers can also add them into <em>TokenizerTest</em>.:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">test_capitalized_words</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;CapitalizedWords&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;capitalized words&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="n">test_str</span><span class="p">),</span> <span class="n">test_oracle</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_camelCase</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;CapitalizedWords&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;capitalized words&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="n">test_str</span><span class="p">),</span> <span class="n">test_oracle</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_uppercase</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;UPPERCASElowercase&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;uppercase lowercase&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="n">test_str</span><span class="p">),</span> <span class="n">test_oracle</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_lowercase_with_delimits</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;lower_case_with_underscores&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;lower case with underscores&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="n">test_str</span><span class="p">),</span> <span class="n">test_oracle</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_uppercase_with_delimits</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;UPPER_CASE_WITH_UNDERSCORES&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;upper case with underscores&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="n">test_str</span><span class="p">),</span> <span class="n">test_oracle</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_abbreviation</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;Abbr.&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;abbr&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="s">&quot;Abbr.&quot;</span><span class="p">),</span> <span class="s">&quot;abbr&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_composite</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">test_str</span> <span class="o">=</span> <span class="s">&quot;AB/Ddf#223-oirDDD_www-Doc ddfs,sse;O-W_dd@iop^yydD!pp~qas&quot;</span>
+    <span class="n">test_oracle</span> <span class="o">=</span> <span class="s">&quot;ab ddf 223 oir ddd www doc ddfs sse o w dd iop yydd pp qas&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">tokenized</span><span class="p">(</span><span class="n">test_str</span><span class="p">),</span> <span class="n">test_oracle</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="todo">
+<h3>ToDo<a class="headerlink" href="#todo" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Verifizers</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Current version of Extractor hasn&#8217;t realized the verifizer yet, and only leave the hook. One planned verifizer is the spell checking verifizer.</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>Translator Map</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Although finding the proper translators to translate raw data into acceptable format is out of the scope of our project. However, a translator map can greatly reduce the barriers to entry for X2R.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div>
+<div class="section" id="content-search">
+<h1>Content Search<a class="headerlink" href="#content-search" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Extractor and Mapper&#8217;s Documentation!</a><ul>
+<li><a class="reference internal" href="#user-guide">User Guide</a><ul>
+<li><a class="reference internal" href="#extractor">Extractor</a></li>
+<li><a class="reference internal" href="#mapper">Mapper</a></li>
+<li><a class="reference internal" href="#extractor-obsolete">Extractor_Obsolete</a></li>
+<li><a class="reference internal" href="#mapper-obsolete">Mapper_Obsolete</a></li>
+<li><a class="reference internal" href="#general-concept">General Concept</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#developer-guide">Developer Guide</a><ul>
+<li><a class="reference internal" href="#convensions-coding-style-tools">Convensions, Coding Style, Tools</a></li>
+<li><a class="reference internal" href="#extension">Extension</a></li>
+<li><a class="reference internal" href="#testing">Testing</a></li>
+<li><a class="reference internal" href="#todo">ToDo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#content-search">Content Search</a></li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index_old.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Feng-Pu Yang.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

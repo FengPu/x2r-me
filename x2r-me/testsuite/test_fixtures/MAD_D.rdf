@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:vcard="http://www.w3.org/wiki/images/2/2b/Vcard.rdf">
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/大同運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.516</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2592-0055</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">大同運動中心</hasName>
+	<geo:location>臺北市大龍街51號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0648</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/士林運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.521</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2880-6066</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">士林運動中心</hasName>
+	<geo:location>臺北市士林區士商路一號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0897</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/北投運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.51</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2820-2880</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">北投運動中心</hasName>
+	<geo:location>臺北市北投區石牌路1段39巷100號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.1165</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/中山運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.521</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2581-1060</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">中山運動中心</hasName>
+	<geo:location>臺北市中山區中山北路2段44巷2號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0549</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/南港運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.582</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2653-2279</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">南港運動中心</hasName>
+	<geo:location>臺北市南港區玉成街69號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0489</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/信義運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.567</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">8786-1911</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">信義運動中心</hasName>
+	<geo:location>臺北市信義區松勤街100號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0319</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/文山運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.56</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2230-8268</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">文山運動中心</hasName>
+	<geo:location>臺北市文山區興隆路3段222號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>24.997</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/中正運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.519</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">3322-5016</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">中正運動中心</hasName>
+	<geo:location>臺北市中正區信義路1段1號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0382</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/內湖運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.575</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2627-7776</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">內湖運動中心</hasName>
+	<geo:location>臺北市內湖區洲子街12號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0782</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/萬華運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.507</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2381-8878</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">萬華運動中心</hasName>
+	<geo:location>臺北市萬華區西寧南路6之1號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0474</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/大安運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.546</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2377-0300</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">大安運動中心</hasName>
+	<geo:location>臺北市辛亥路3段55號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0208</geo:lat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/松山運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.55</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">6617-6789</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">松山運動中心</hasName>
+	<geo:location>臺北市敦化北路1號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0486</geo:lat>
+</rdf:Description>
+</rdf:RDF>

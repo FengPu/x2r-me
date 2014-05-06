@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:vcard="http://www.w3.org/wiki/images/2/2b/Vcard.rdf">
+
+<rdf:Description rdf:about="http://openisdm.iis.sinica.edu.tw/VR/大同運動中心">
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+	<updatedAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T03:23:47Z</updatedAt>
+	<geo:long>121.516</geo:long>
+	<hasTelephone xmlns="http://openisdm.iis.sinica.edu.tw/VR/">2592-0055</hasTelephone>
+	<hasName xmlns="http://openisdm.iis.sinica.edu.tw/VR/">大同運動中心</hasName>
+	<geo:location>臺北市大龍街51號</geo:location>
+	<usedFor xmlns="http://openisdm.iis.sinica.edu.tw/VR/">Sport</usedFor>
+	<createdAt xmlns="http://openisdm.iis.sinica.edu.tw/VR/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-28T09:05:13Z</createdAt>
+	<geo:lat>25.0648</geo:lat>
+</rdf:Description>
+
+</rdf:RDF>
