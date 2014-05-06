@@ -56,6 +56,15 @@ class Mapper:
         self.graph = graph
         self.operationCount = 0
     def replaceUri(self, oUri, uUri):
+        '''This function is used to systemantically replace URIs.
+        
+        :param oUri: the original URI.
+        :type oUri: str.
+        :param uUri: the replced URI.
+        :type uUri: str.
+        :returns:  int. The count of replacements.
+        
+        '''
         oUriRef = URIRef(oUri)
         uUriRef = URIRef(uUri)
         
@@ -82,17 +91,46 @@ class Mapper:
         
 
     def commit(self, outputFile):
+        '''This function is used to save all URI replacements and output to a file.
+        
+        :param outputFile: the path to output file.
+        :type outputFile: str.
+        
+        :returns:  boolean. True for commit success and False for commit failure.
+        
+        '''
         self.graph.commit()
-        ufile = open(outputFile, 'w')
-        ufile.write(self.graph.serialize())
-        ufile.close()
+        fileWrittenFlag = True
+        try:
+            ufile = open(outputFile, 'w')
+            ufile.write(self.graph.serialize())
+            ufile.close()
+        except:
+            print "File write Error."
+            fileWrittenFlag = False
+        
         self.graph.close()
+        
+        return fileWrittenFlag
     
     def commit(self):
+        '''This function is used to save all URI replacements and output to a string.
+        
+        :returns: str. The string of result RDF with replaced URIs.
+        
+        '''
         self.graph.commit()
         return self.graph.serialize()
         
     def mapping(self, json_str):
+        '''This function is used to replaced mutiple URIs at once.
+        
+        :param json_str: this json string defines multiple replacements
+        :type json_str: str.
+        
+        :returns: str. The string of result RDF with replaced URIs.
+        
+        '''
         try:
             mappings = json.loads(json_str)["mapping"]
             for mapping in mappings:

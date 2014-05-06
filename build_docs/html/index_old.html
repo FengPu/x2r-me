@@ -8,7 +8,7 @@
     
     <title>Extractor and Mapper’s Documentation! &mdash; X2R 1.0 documentation</title>
     
-    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
@@ -37,7 +37,52 @@
              >routing table</a> |</li>
         <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
       </ul>
-    </div>  
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Extractor and Mapper&#8217;s Documentation!</a><ul>
+<li><a class="reference internal" href="#user-guide">User Guide</a><ul>
+<li><a class="reference internal" href="#extractor">Extractor</a></li>
+<li><a class="reference internal" href="#mapper">Mapper</a></li>
+<li><a class="reference internal" href="#extractor-obsolete">Extractor_Obsolete</a></li>
+<li><a class="reference internal" href="#mapper-obsolete">Mapper_Obsolete</a></li>
+<li><a class="reference internal" href="#general-concept">General Concept</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#developer-guide">Developer Guide</a><ul>
+<li><a class="reference internal" href="#convensions-coding-style-tools">Convensions, Coding Style, Tools</a></li>
+<li><a class="reference internal" href="#extension">Extension</a></li>
+<li><a class="reference internal" href="#testing">Testing</a></li>
+<li><a class="reference internal" href="#todo">ToDo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#content-search">Content Search</a></li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index_old.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
 
     <div class="document">
       <div class="documentwrapper">
@@ -57,6 +102,7 @@
 <h3>Extractor<a class="headerlink" href="#extractor" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>For an input RDF content, this extractor service extracts terms from URIs of the RDF content.</p>
+<p><strong>Web API Definition:</strong></p>
 <dl class="post">
 <dt id="post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}">
 <tt class="descname">POST </tt><tt class="descname">/extractor{?excludedNamespaces, checkUrisStatus, rdfContent}</tt><a class="headerlink" href="#post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}" title="Permalink to this definition">¶</a></dt>
@@ -157,38 +203,6 @@
 </ul>
 </dd>
 </dl>
-<dl class="post">
-<dt id="post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}">
-<tt class="descname">POST </tt><tt class="descname">/extractor{?excludedNamespaces, checkUrisStatus, rdfContent}</tt><a class="headerlink" href="#post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}" title="Permalink to this definition">¶</a></dt>
-<dd><table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
-<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
-<li><strong>excludedNamespaces</strong> &#8211; The serialized array excludedNamespaces specified the namespaces, which are skipped from processing. Default is <tt class="docutils literal"><span class="pre">[]</span></tt>.</li>
-<li><strong>checkUrisStatus</strong> &#8211; Boolean checkURIsStatus is used to turn on or off the status checking over each extracted URIs based on its value as True or False, respectively. Default is <tt class="docutils literal"><span class="pre">False</span></tt>.</li>
-<li><strong>rdfContent</strong> &#8211; String rdfContent is the content from the targeting RDF file.</li>
-</ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
-<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
-<li><strong>Content-Type</strong> &#8211; this depends on <em class="mailheader">Accept</em>
-header of request</li>
-</ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
-<li><strong>200</strong> &#8211; no error</li>
-<li><strong>404</strong> &#8211; exception</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
-
 </div></blockquote>
 </div>
 <div class="section" id="mapper">
@@ -279,38 +293,6 @@ header of request</li>
 </ul>
 </dd>
 </dl>
-<dl class="post">
-<dt id="post--mapper{?rdfContent, mapping, format}">
-<tt class="descname">POST </tt><tt class="descname">/mapper{?rdfContent, mapping, format}</tt><a class="headerlink" href="#post--mapper{?rdfContent, mapping, format}" title="Permalink to this definition">¶</a></dt>
-<dd><table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
-<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
-<li><strong>rdfContent</strong> &#8211; String rdfContent is the content from the targeting RDF file.</li>
-<li><strong>mapping</strong> &#8211; String mapping is serialized from a json structure, which contains the information needed for mapper to update the URIs.</li>
-<li><strong>format</strong> &#8211; String format specifies the format of output. Default is <tt class="docutils literal"><span class="pre">xml</span></tt>, which stands for RDF/XML.</li>
-</ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
-<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
-<li><strong>Content-Type</strong> &#8211; this depends on <em class="mailheader">Accept</em>
-header of request</li>
-</ul>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
-<li><strong>200</strong> &#8211; no error</li>
-<li><strong>404</strong> &#8211; exception</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
-
 </div></blockquote>
 </div>
 <div class="section" id="extractor-obsolete">
@@ -645,51 +627,6 @@ header of request</li>
 
 
           </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Extractor and Mapper&#8217;s Documentation!</a><ul>
-<li><a class="reference internal" href="#user-guide">User Guide</a><ul>
-<li><a class="reference internal" href="#extractor">Extractor</a></li>
-<li><a class="reference internal" href="#mapper">Mapper</a></li>
-<li><a class="reference internal" href="#extractor-obsolete">Extractor_Obsolete</a></li>
-<li><a class="reference internal" href="#mapper-obsolete">Mapper_Obsolete</a></li>
-<li><a class="reference internal" href="#general-concept">General Concept</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#developer-guide">Developer Guide</a><ul>
-<li><a class="reference internal" href="#convensions-coding-style-tools">Convensions, Coding Style, Tools</a></li>
-<li><a class="reference internal" href="#extension">Extension</a></li>
-<li><a class="reference internal" href="#testing">Testing</a></li>
-<li><a class="reference internal" href="#todo">ToDo</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a class="reference internal" href="#content-search">Content Search</a></li>
-</ul>
-
-  <h3>This Page</h3>
-  <ul class="this-page-menu">
-    <li><a href="_sources/index_old.txt"
-           rel="nofollow">Show Source</a></li>
-  </ul>
-<div id="searchbox" style="display: none">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>

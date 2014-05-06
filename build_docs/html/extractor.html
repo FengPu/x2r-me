@@ -8,7 +8,7 @@
     
     <title>extractor module &mdash; X2R 1.0 documentation</title>
     
-    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
@@ -35,24 +35,12 @@
         <li class="right" >
           <a href="http-routingtable.html" title="HTTP Routing Table"
              >routing table</a> |</li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
         <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
       </ul>
-    </div>  
-
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body">
-            
-  <div class="section" id="extractor-module">
-<h1>extractor module<a class="headerlink" href="#extractor-module" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/map_process.png" src="_images/map_process.png" />
-</div>
-
-
-          </div>
-        </div>
-      </div>
+    </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
   <h3>This Page</h3>
@@ -75,6 +63,109 @@
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="extractor-module">
+<h1>extractor module<a class="headerlink" href="#extractor-module" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/map_process.png" src="_images/map_process.png" />
+<span class="target" id="module-extractor"></span><span class="target" id="module-extractor"></span><dl class="class">
+<dt id="extractor.Extractor">
+<em class="property">class </em><tt class="descclassname">extractor.</tt><tt class="descname">Extractor</tt><big>(</big><em>graph</em><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extractor parses an RDF content and provides services:</p>
+<ol class="arabic simple">
+<li>extract URIs</li>
+<li>extract Blank Nodes</li>
+<li>look up for URI&#8217;s line number</li>
+<li>translate URIs into terms</li>
+</ol>
+<dl class="method">
+<dt id="extractor.Extractor.getBnodes">
+<tt class="descname">getBnodes</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.getBnodes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.getBnodes" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to extract blank nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Array&lt;str&gt;. This function returns an array of blank nodes.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.getTripleCount">
+<tt class="descname">getTripleCount</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.getTripleCount"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.getTripleCount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.getUris">
+<tt class="descname">getUris</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.getUris"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.getUris" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to extract URIs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Array&lt;str&gt;. This function returns an array of URIs.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.get_lines">
+<tt class="descname">get_lines</tt><big>(</big><em>sio</em>, <em>lookup_term</em><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.get_lines"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.get_lines" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to look up &#8220;lookup_term&#8221; inside the given RDF content.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>lookup_term</strong> (<em>str.</em>) &#8211; the uri for look up.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">str. A string with all the line numbers, where the luupup_term is found,
+used &#8221;,&#8221; as the delimiter.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.terms">
+<tt class="descname">terms</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.terms"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.terms" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.testUri">
+<tt class="descname">testUri</tt><big>(</big><em>uri</em><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.testUri"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.testUri" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to test if the &#8220;uri&#8221; is reachable.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uri</strong> (<em>str.</em>) &#8211; the uri for testing reachability.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">boolean. True for reachable and False for unreachable.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="extractor.main">
+<tt class="descclassname">extractor.</tt><tt class="descname">main</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
       <div class="clearer"></div>
     </div>
     <div class="related">
@@ -86,6 +177,9 @@
         <li class="right" >
           <a href="http-routingtable.html" title="HTTP Routing Table"
              >routing table</a> |</li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
         <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
       </ul>
     </div>

@@ -20,7 +20,7 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
-sys.path.insert(0,"os.path,abspath('..')")
+sys.path.insert(0,os.path.abspath('../x2r-me/'))
 
 # -- General configuration ------------------------------------------------
 
@@ -111,7 +111,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 
 #html_theme = "default"
-html_theme = "nature"
+html_theme = "sphinxdoc"
 
 
 # Theme options are theme-specific and customize the look and feel of a theme

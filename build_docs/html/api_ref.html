@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Web API &mdash; X2R 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="X2R 1.0 documentation" href="index.html" />
+    <link rel="prev" title="Coding Style" href="developer_guide.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="developer_guide.html" title="Coding Style"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Web API</a></li>
+<li><a class="reference internal" href="#python-api">Python API</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="developer_guide.html"
+                        title="previous chapter">Coding Style</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/api_ref.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="web-api">
+<h1>Web API<a class="headerlink" href="#web-api" title="Permalink to this headline">¶</a></h1>
+<dl class="post">
+<dt id="post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}">
+<tt class="descname">POST </tt><tt class="descname">/extractor{?excludedNamespaces, checkUrisStatus, rdfContent}</tt><a class="headerlink" href="#post--extractor{?excludedNamespaces, checkUrisStatus, rdfContent}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>excludedNamespaces</strong> &#8211; <em>(optional)</em> This specifies a list of namespaces to be skipped. That is, if a found URI belonged to this list, the URI will not be processed anymore.</li>
+<li><strong>checkUrisStatus</strong> &#8211; <em>(required)</em> This determines if <cite>extractor</cite> checks the status codes of found URIs.</li>
+<li><strong>rdfContent</strong> &#8211; <em>(required)</em> This specifies the content of RDF to be processed.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; application/json</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>For the detail spec., see <a class="reference internal" href="extractor_api.html"><em>Extractor Web API</em></a></p>
+<dl class="post">
+<dt id="post--mapper{?rdfContent, mapping, format}">
+<tt class="descname">POST </tt><tt class="descname">/mapper{?rdfContent, mapping, format}</tt><a class="headerlink" href="#post--mapper{?rdfContent, mapping, format}" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Query Parameters:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>rdfContent</strong> &#8211; (required) This specifies the content of RDF to be processed.</li>
+<li><strong>mapping</strong> &#8211; (required) This specifies the information needed for <cite>mapper</cite> to update the URIs found in rdfContent.</li>
+<li><strong>format</strong> &#8211; (optional) This specifies the format of output.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Response Headers:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body"><ul class="first simple">
+<li><strong>Content-Type</strong> &#8211; application/rdf+xml</li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Status Codes:</th><td class="field-body"><ul class="first last simple">
+<li><strong>200</strong> &#8211; no error</li>
+<li><strong>404</strong> &#8211; exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>For the detail spec., see <a class="reference internal" href="mapper_api.html"><em>Mapper Web API</em></a></p>
+</div>
+<div class="section" id="python-api">
+<h1>Python API<a class="headerlink" href="#python-api" title="Permalink to this headline">¶</a></h1>
+<p>This class Extractor</p>
+<dl class="class">
+<dt id="extractor.Extractor">
+<em class="property">class </em><tt class="descclassname">extractor.</tt><tt class="descname">Extractor</tt><big>(</big><em>graph</em><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extractor parses an RDF content and provides services:</p>
+<ol class="arabic simple">
+<li>extract URIs</li>
+<li>extract Blank Nodes</li>
+<li>look up for URI&#8217;s line number</li>
+<li>translate URIs into terms</li>
+</ol>
+<dl class="method">
+<dt id="extractor.Extractor.getBnodes">
+<tt class="descname">getBnodes</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.getBnodes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.getBnodes" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to extract blank nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Array&lt;str&gt;. This function returns an array of blank nodes.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.getUris">
+<tt class="descname">getUris</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.getUris"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.getUris" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to extract URIs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Array&lt;str&gt;. This function returns an array of URIs.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.get_lines">
+<tt class="descname">get_lines</tt><big>(</big><em>sio</em>, <em>lookup_term</em><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.get_lines"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.get_lines" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to look up &#8220;lookup_term&#8221; inside the given RDF content.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>lookup_term</strong> (<em>str.</em>) &#8211; the uri for look up.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">str. A string with all the line numbers, where the luupup_term is found,
+used &#8221;,&#8221; as the delimiter.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="extractor.Extractor.testUri">
+<tt class="descname">testUri</tt><big>(</big><em>uri</em><big>)</big><a class="reference internal" href="_modules/extractor.html#Extractor.testUri"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#extractor.Extractor.testUri" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to test if the &#8220;uri&#8221; is reachable.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uri</strong> (<em>str.</em>) &#8211; the uri for testing reachability.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">boolean. True for reachable and False for unreachable.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="mapper.Mapper">
+<em class="property">class </em><tt class="descclassname">mapper.</tt><tt class="descname">Mapper</tt><big>(</big><em>graph</em><big>)</big><a class="reference internal" href="_modules/mapper.html#Mapper"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mapper.Mapper" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="mapper.Mapper.commit">
+<tt class="descname">commit</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/mapper.html#Mapper.commit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mapper.Mapper.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to save all URI replacements and output to a string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">str. The string of result RDF with replaced URIs.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="mapper.Mapper.mapping">
+<tt class="descname">mapping</tt><big>(</big><em>json_str</em><big>)</big><a class="reference internal" href="_modules/mapper.html#Mapper.mapping"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mapper.Mapper.mapping" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to replaced mutiple URIs at once.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>json_str</strong> (<em>str.</em>) &#8211; this json string defines multiple replacements</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">str. The string of result RDF with replaced URIs.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="mapper.Mapper.replaceUri">
+<tt class="descname">replaceUri</tt><big>(</big><em>oUri</em>, <em>uUri</em><big>)</big><a class="reference internal" href="_modules/mapper.html#Mapper.replaceUri"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mapper.Mapper.replaceUri" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to systemantically replace URIs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>oUri</strong> (<em>str.</em>) &#8211; the original URI.</li>
+<li><strong>uUri</strong> (<em>str.</em>) &#8211; the replced URI.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">int. The count of replacements.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="tokenizer.Tokenizer">
+<em class="property">class </em><tt class="descclassname">tokenizer.</tt><tt class="descname">Tokenizer</tt><a class="reference internal" href="_modules/tokenizer.html#Tokenizer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tokenizer.Tokenizer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tokenizer realizes serveral tokenization heuristics:</p>
+<ol class="arabic simple">
+<li>identifying camelcase word</li>
+<li>identifying all captials word</li>
+<li>treat all non alphanumeric chars as delimiters</li>
+</ol>
+<dl class="method">
+<dt id="tokenizer.Tokenizer.tokenized">
+<tt class="descname">tokenized</tt><big>(</big><em>string</em><big>)</big><a class="reference internal" href="_modules/tokenizer.html#Tokenizer.tokenized"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tokenizer.Tokenizer.tokenized" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is the integration of all known tokenizers.
+Theoretically, any compound words can be tokenized by this 
+function.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<em>str.</em>) &#8211; The string to tokenize.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">str &#8211; the tokenized and normalized string.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="tokenizer.Tokenizer.tokenized_url">
+<tt class="descname">tokenized_url</tt><big>(</big><em>uri</em><big>)</big><a class="reference internal" href="_modules/tokenizer.html#Tokenizer.tokenized_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tokenizer.Tokenizer.tokenized_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function truncate the input URI&#8217;s head and 
+output the tail part of the input URI. Be precisely, 
+only the tail part after the last slash will be 
+preserved. 
+For example, 
+input &#8220;<a class="reference external" href="http://www/xx/yy/zz-AB">http://www/xx/yy/zz-AB</a>&#8221; will get the 
+output as &#8220;zz ab&#8221;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<em>str.</em>) &#8211; The string (URI) to tokenize.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">str &#8211; the tokenized and normalized string.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="http-routingtable.html" title="HTTP Routing Table"
+             >routing table</a> |</li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="developer_guide.html" title="Coding Style"
+             >previous</a> |</li>
+        <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Feng-Pu Yang.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

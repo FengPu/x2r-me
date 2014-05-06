@@ -1,9 +1,12 @@
+.. _extractor_api:
+
 Extractor
-_________
+~~~~~~~~~
+
 For an input RDF content, this extractor service extracts terms from URIs of the RDF content. 
 
-Web API Definition:
-^^^^^^^^^^^^^^^^^^^
+**Web API Definition:**
+
 .. http:post:: /extractor{?excludedNamespaces, checkUrisStatus, rdfContent}
 
         
@@ -93,20 +96,3 @@ Related Documents
 **See also:** 
   * :doc:`Mapper's Web API </mapper_api>`	   
 
-
-Obsolete
-^^^^^^^^
-
-.. http:post:: /extractor{?excludedNamespaces, checkUrisStatus, rdfContent}
-
-        
-
-
-
-   :query excludedNamespaces: The serialized array excludedNamespaces specified the namespaces, which are skipped from processing. Default is ``[]``.
-   :query checkUrisStatus: Boolean checkURIsStatus is used to turn on or off the status checking over each extracted URIs based on its value as True or False, respectively. Default is ``False``.
-   :query rdfContent: String rdfContent is the content from the targeting RDF file.
-   :resheader Content-Type: this depends on :mailheader:`Accept`
-                            header of request
-   :statuscode 200: no error
-   :statuscode 404: exception

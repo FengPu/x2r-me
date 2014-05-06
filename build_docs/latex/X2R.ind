@@ -1,0 +1,17 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter C
+  \item code
+    \subitem examples, \hyperpage{3}
+
+  \indexspace
+  \bigletter E
+  \item examples
+    \subitem code, \hyperpage{3}
+
+  \indexspace
+  \bigletter S
+  \item sourcecode, \hyperpage{3}
+
+\end{theindex}

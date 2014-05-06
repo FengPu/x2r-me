@@ -1,5 +1,7 @@
+.. _mapper_api:
+
 Mapper
-______
+~~~~~~~
 
       Given a RDF content, a URI mapping and an output format, this mapper service replaces URIs based on the URI mapping and return a RDF file in the output format
 
@@ -77,20 +79,4 @@ Related Documents
 **See also:** 
   * :doc:`Extractor's Web API </extractor_api>`	  
   
-  
-
-Obsolete
-^^^^^^^^
-
-.. http:post:: /mapper{?rdfContent, mapping, format}
-
-
-
-   :query rdfContent: String rdfContent is the content from the targeting RDF file.
-   :query mapping: String mapping is serialized from a json structure, which contains the information needed for mapper to update the URIs.
-   :query format: String format specifies the format of output. Default is ``xml``, which stands for RDF/XML.
-   :resheader Content-Type: this depends on :mailheader:`Accept`
-                            header of request
-   :statuscode 200: no error
-   :statuscode 404: exception
 

@@ -1,5 +1,3 @@
-License
-=======
 
 X2R-ME is licensed under a GPL 3.0 License. The full license text can be found below (:ref:`x2r-license`).  For the documentation and artwork different licenses apply.
 
