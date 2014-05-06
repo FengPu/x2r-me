@@ -1,3 +1,12 @@
-\indexentry{code!examples|hyperpage}{3}
-\indexentry{examples!code|hyperpage}{3}
-\indexentry{sourcecode|hyperpage}{3}
+\indexentry{Extractor (class in extractor)|hyperpage}{26}
+\indexentry{getBnodes() (extractor.Extractor method)|hyperpage}{26}
+\indexentry{getUris() (extractor.Extractor method)|hyperpage}{26}
+\indexentry{get\_lines() (extractor.Extractor method)|hyperpage}{26}
+\indexentry{testUri() (extractor.Extractor method)|hyperpage}{26}
+\indexentry{Mapper (class in mapper)|hyperpage}{26}
+\indexentry{commit() (mapper.Mapper method)|hyperpage}{26}
+\indexentry{mapping() (mapper.Mapper method)|hyperpage}{26}
+\indexentry{replaceUri() (mapper.Mapper method)|hyperpage}{26}
+\indexentry{Tokenizer (class in tokenizer)|hyperpage}{26}
+\indexentry{tokenized() (tokenizer.Tokenizer method)|hyperpage}{27}
+\indexentry{tokenized\_url() (tokenizer.Tokenizer method)|hyperpage}{27}

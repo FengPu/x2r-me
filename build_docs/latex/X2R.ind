@@ -2,16 +2,32 @@
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 
   \bigletter C
-  \item code
-    \subitem examples, \hyperpage{3}
+  \item commit() (mapper.Mapper method), \hyperpage{26}
 
   \indexspace
   \bigletter E
-  \item examples
-    \subitem code, \hyperpage{3}
+  \item Extractor (class in extractor), \hyperpage{26}
 
   \indexspace
-  \bigletter S
-  \item sourcecode, \hyperpage{3}
+  \bigletter G
+  \item get\_lines() (extractor.Extractor method), \hyperpage{26}
+  \item getBnodes() (extractor.Extractor method), \hyperpage{26}
+  \item getUris() (extractor.Extractor method), \hyperpage{26}
+
+  \indexspace
+  \bigletter M
+  \item Mapper (class in mapper), \hyperpage{26}
+  \item mapping() (mapper.Mapper method), \hyperpage{26}
+
+  \indexspace
+  \bigletter R
+  \item replaceUri() (mapper.Mapper method), \hyperpage{26}
+
+  \indexspace
+  \bigletter T
+  \item testUri() (extractor.Extractor method), \hyperpage{26}
+  \item tokenized() (tokenizer.Tokenizer method), \hyperpage{27}
+  \item tokenized\_url() (tokenizer.Tokenizer method), \hyperpage{27}
+  \item Tokenizer (class in tokenizer), \hyperpage{26}
 
 \end{theindex}

@@ -121,62 +121,11 @@
 \phantomsection\label{index::doc}
 
 
-This is the text of the section 2.
-
-It refers to the section itself, see \emph{my-reference-label}.
-
-
-\chapter{Test Doc Ref}
-\label{tutorial:section-3}\label{tutorial::doc}\label{tutorial:test-doc-ref}\label{tutorial:my-reference-label-3}
-
-\section{Showing code examples}
-\label{tutorial:code-examples}\label{tutorial:showing-code-examples}
-\index{code!examples}\index{examples!code}\index{sourcecode}
-Examples of Python source code or interactive sessions are represented using
-standard reST literal blocks.  They are started by a \code{::} at the end of the
-preceding paragraph and delimited by indentation.
-
-Representing an interactive session requires including the prompts and output
-along with the Python code.  No special markup is required for interactive
-sessions.  After the last line of input or output presented, there should not be
-an ``unused'' primary prompt; this is an example of what \emph{not} to do:
-
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{l+m+mi}{1}
-\PYG{g+go}{2}
-\PYG{g+go}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}
-\end{Verbatim}
-
-Syntax highlighting is done with \href{http://pygments.org}{Pygments} (if it's
-installed) and handled in a smart way:
-\begin{itemize}
-\item {} 
-There is a ``highlighting language'' for each source file.  Per default, this is
-\code{'python'} as the majority of files will have to highlight Python snippets,
-but the doc-wide default can be set with the {\color{red}\bfseries{}:confval:{}`highlight\_language{}`}
-config value.
-
-\item {} 
-Within Python highlighting mode, interactive sessions are recognized
-automatically and highlighted appropriately.  Normal Python code is only
-highlighted if it is parseable (so you can use Python as the default, but
-interspersed snippets of shell commands or other code blocks will not be
-highlighted as Python).
-
-\item {} 
-The highlighting language can be changed using the \code{highlight} directive,
-used as follows:
-
-\end{itemize}
-
-
-\chapter{License}
-\label{license::doc}\label{license:license}
 X2R-ME is licensed under a GPL 3.0 License. The full license text can be found below ({\hyperref[license:x2r-license]{\emph{X2R-ME License}}}).  For the documentation and artwork different licenses apply.
 
 
-\section{General License Definitions}
-\label{license:general-license-definitions}
+\chapter{General License Definitions}
+\label{license:general-license-definitions}\label{license::doc}\label{license:license}
 The following section contains the full license texts for X2R and the
 documentation.
 \begin{itemize}
@@ -192,13 +141,13 @@ as well as documentation.
 \end{itemize}
 
 
-\section{Authors}
+\chapter{Authors}
 \label{license:id1}\label{license:authors}
 X2R-ME is developed and maintained by Feng-Pu Yang and
 various contributors:
 
 
-\subsection{Project Initiator and Manager}
+\section{Project Initiator and Manager}
 \label{license:project-initiator-and-manager}\begin{itemize}
 \item {} 
 Liu, Jane Win Shih \textless{}\href{mailto:janeliuat@iis.sincia.edu.tw}{janeliuat@iis.sincia.edu.tw}\textgreater{}
@@ -206,7 +155,7 @@ Liu, Jane Win Shih \textless{}\href{mailto:janeliuat@iis.sincia.edu.tw}{janeliua
 \end{itemize}
 
 
-\subsection{Major Developer}
+\section{Major Developer}
 \label{license:major-developer}\begin{itemize}
 \item {} 
 Feng-Pu Yang \textless{}\href{mailto:fengpuyang@gmail.com}{fengpuyang@gmail.com}\textgreater{}
@@ -214,7 +163,7 @@ Feng-Pu Yang \textless{}\href{mailto:fengpuyang@gmail.com}{fengpuyang@gmail.com}
 \end{itemize}
 
 
-\subsection{Project Members}
+\section{Project Members}
 \label{license:project-members}\begin{itemize}
 \item {} 
 Anderson Ou
@@ -225,7 +174,7 @@ Old Yu
 \end{itemize}
 
 
-\section{X2R-ME License}
+\chapter{X2R-ME License}
 \label{license:x2r-license}\label{license:x2r-me-license}
 \textbf{GNU GENERAL PUBLIC LICENSE}
 
@@ -986,27 +935,567 @@ Public License instead of this License.  But first, please read
 
 
 \chapter{Concept and Design}
-\label{index:concept-and-design2}\label{index:concept-and-design}
+\label{index:concept-and-design}
 
-\chapter{User Guide}
-\label{index:user-guide}\label{index:id1}
-{\hyperref[tutorial::doc]{\emph{Test Doc Ref}}}
+\section{Motivation}
+\label{concept_design:concept-and-design}\label{concept_design:motivation}\label{concept_design::doc}
+m
 
-{\hyperref[tutorial::doc]{\emph{Monty Python members}}}
 
-This is the text of the section 3, see \emph{concept\_and\_design}.
+\section{Features}
+\label{concept_design:features}
+f
+
+
+\section{Design}
+\label{concept_design:design}
+d
+
+This is the text of the section 2.
 
 It refers to the section itself, see \emph{my-reference-label}.
+
+
+\chapter{User's Guide}
+\label{index:user-s-guide}
+
+\section{User Guide}
+\label{user_guide:user-guide}\label{user_guide::doc}\label{user_guide:id1}
+
+\subsection{API Reference}
+\label{user_guide:api-reference}\label{user_guide:id2}
+
+\subsubsection{Extractor}
+\label{user_guide:extractor}\label{user_guide:extractor-api}
+For an input RDF content, this extractor service extracts terms from URIs of the RDF content.
+
+\textbf{Web API Definition:}
+
+
+\begin{fulllineitems}
+\phantomsection\label{user_guide:post--extractor_?excludedNamespaces, checkUrisStatus, rdfContent_}\pysigline{\bfcode{POST~}\bfcode{/extractor\{?excludedNamespaces,~checkUrisStatus,~rdfContent\}}}~\begin{quote}\begin{description}
+\item[{Query Parameters}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{excludedNamespaces} -- \emph{(optional)} This specifies a list of namespaces to be skipped. That is, if a found URI belonged to this list, the URI will not be processed anymore.
+
+\item {} 
+\textbf{checkUrisStatus} -- \emph{(required)} This determines if \emph{extractor} checks the status codes of found URIs.
+
+\item {} 
+\textbf{rdfContent} -- \emph{(required)} This specifies the content of RDF to be processed.
+
+\end{itemize}
+
+\item[{Response Headers}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{Content-Type} -- application/json
+
+\end{itemize}
+
+\item[{Status Codes}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{200} -- no error
+
+\item {} 
+\textbf{404} -- exception
+
+\end{itemize}
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+
+\paragraph{Query Parameter Format Detail}
+\label{user_guide:query-parameter-format-detail}\begin{quote}\begin{description}
+\item[{excludedNamespace}] \leavevmode
+\item[{checkUrisStatus}] \leavevmode
+\item[{rdfContent}] \leavevmode
+\end{description}\end{quote}
+
+
+\paragraph{Response Format Detail}
+\label{user_guide:response-format-detail}
+Content-Type: application/json
+
+Response template:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZob{}}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{metadata}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{p}{[}\PYG{p}{]}\PYG{p}{,}
+ \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{mapping}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:}
+             \PYG{p}{[}\PYG{p}{\PYGZob{}}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{status}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+               \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{originalURI}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+               \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{replacedURI}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+               \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{term}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+               \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{lineNumbers}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}
+              \PYG{p}{\PYGZcb{}}
+             \PYG{p}{]}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
+
+mapping entry:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{[}\PYG{p}{\PYGZob{}}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{status}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+  \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{originalURI}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+  \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{replacedURI}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+  \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{term}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,}
+  \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{lineNumbers}\PYG{l+s}{\PYGZdq{}}\PYG{p}{:} \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZdq{}}
+ \PYG{p}{\PYGZcb{}}
+\PYG{p}{]}
+\end{Verbatim}
+
+
+\subparagraph{Example}
+\label{user_guide:example}\begin{quote}
+
+\textbf{Example request}:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{POST} \PYG{n+nn}{/extractor?excludedNamespaces\PYGZam{}checkUrisStatus\PYGZam{}rdfContent} \PYG{k+kr}{HTTP}\PYG{o}{/}\PYG{l+m}{1.1}
+\end{Verbatim}
+
+\textbf{Example response}:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+ HTTP/1.1 200 OK
+ Vary: Accept
+ Content\PYGZhy{}Type: application/json
+
+\PYGZob{}\PYGZdq{}metadata\PYGZdq{}: [
+        ],
+ \PYGZdq{}mapping\PYGZdq{}:
+        [\PYGZob{}\PYGZdq{}status\PYGZdq{}: \PYGZdq{}N/A\PYGZdq{},
+          \PYGZdq{}originalURI\PYGZdq{}: \PYGZdq{}http://127.0.0.1/autoGeneratedUri\PYGZdq{},
+          \PYGZdq{}replacedURI\PYGZdq{}: \PYGZdq{}\PYGZdq{},
+          \PYGZdq{}term\PYGZdq{}: \PYGZdq{}auto generated uri\PYGZdq{},
+          \PYGZdq{}lineNumbers\PYGZdq{}: \PYGZdq{}3, 31\PYGZdq{}
+         \PYGZcb{}
+        ]
+\PYGZcb{}
+\end{Verbatim}
+\end{quote}
+
+
+\subparagraph{Related Documents}
+\label{user_guide:related-documents}\begin{description}
+\item[{\textbf{See also:}}] \leavevmode\begin{itemize}
+\item {} 
+\code{Mapper's Web API}
+
+\end{itemize}
+
+\end{description}
+
+
+\subsubsection{Mapper}
+\label{user_guide:mapper}\label{user_guide:mapper-api}\begin{quote}
+
+Given a RDF content, a URI mapping and an output format, this mapper service replaces URIs based on the URI mapping and return a RDF file in the output format
+\end{quote}
+
+
+\begin{fulllineitems}
+\phantomsection\label{user_guide:post--mapper_?rdfContent, mapping, format_}\pysigline{\bfcode{POST~}\bfcode{/mapper\{?rdfContent,~mapping,~format\}}}~\begin{quote}\begin{description}
+\item[{Query Parameters}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{rdfContent} -- (required) This specifies the content of RDF to be processed.
+
+\item {} 
+\textbf{mapping} -- (required) This specifies the information needed for \emph{mapper} to update the URIs found in rdfContent.
+
+\item {} 
+\textbf{format} -- (optional) This specifies the format of output.
+
+\end{itemize}
+
+\item[{Response Headers}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{Content-Type} -- application/rdf+xml
+
+\end{itemize}
+
+\item[{Status Codes}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{200} -- no error
+
+\item {} 
+\textbf{404} -- exception
+
+\end{itemize}
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+
+\paragraph{Query Parameter Format Detail}
+\label{user_guide:id3}\begin{quote}\begin{description}
+\item[{rdfContent}] \leavevmode
+\item[{mapping}] \leavevmode
+\item[{format}] \leavevmode
+\end{description}\end{quote}
+
+
+\paragraph{Response Format Detail}
+\label{user_guide:id4}
+Content-Type: application/rdf+xml
+
+
+\subparagraph{Example}
+\label{user_guide:id5}\begin{quote}
+
+\textbf{Example request}:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{POST} \PYG{n+nn}{/mapper?rdfContent\PYGZam{}mapping\PYGZam{}format} \PYG{k+kr}{HTTP}\PYG{o}{/}\PYG{l+m}{1.1}
+\end{Verbatim}
+
+\textbf{Example response}:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+ HTTP/1.1 200 OK
+ Vary: Accept
+ Content\PYGZhy{}Type: application/rdf+xml
+
+\PYGZlt{}?xml version=\PYGZdq{}1.0\PYGZdq{} encoding=\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}?\PYGZgt{}
+    \PYGZlt{}rdf:RDF
+        xmlns:rdfs=\PYGZdq{}http://www.w3.org/2000/01/rdf\PYGZhy{}schema\PYGZsh{}\PYGZdq{}
+        xmlns:geo=\PYGZdq{}http://www.w3.org/2003/01/geo/wgs84\PYGZus{}pos\PYGZsh{}\PYGZdq{}
+        xmlns:xsd=\PYGZdq{}http://www.w3.org/2001/XMLSchema\PYGZsh{}\PYGZdq{}\PYGZgt{}
+\PYGZlt{}rdf:Description rdf:about=\PYGZdq{}http://openisdm.iis.sinica.edu.tw/VR/DaTongSportsCenter\PYGZdq{}\PYGZgt{}
+    \PYGZlt{}rdf:type rdf:resource=\PYGZdq{}http://www.w3.org/2003/01/geo/wgs84\PYGZus{}pos\PYGZsh{}SpatialThing\PYGZdq{}/\PYGZgt{}
+    \PYGZlt{}updatedAt xmlns=\PYGZdq{}http://openisdm.iis.sinica.edu.tw/VR/\PYGZdq{}
+        rdf:datatype=\PYGZdq{}http://www.w3.org/2001/XMLSchema\PYGZsh{}dateTime\PYGZdq{}\PYGZgt{}2013\PYGZhy{}07\PYGZhy{}31T03:23:47Z\PYGZlt{}/updatedAt\PYGZgt{}
+    \PYGZlt{}geo:long\PYGZgt{}121.516\PYGZlt{}/geo:long\PYGZgt{}
+    \PYGZlt{}hasTelephone xmlns=\PYGZdq{}http://openisdm.iis.sinica.edu.tw/VR/\PYGZdq{}\PYGZgt{}2592\PYGZhy{}0055\PYGZlt{}/hasTelephone\PYGZgt{}
+    \PYGZlt{}hasName xmlns=\PYGZdq{}http://openisdm.iis.sinica.edu.tw/VR/\PYGZdq{}\PYGZgt{}Da Tong Sports Center\PYGZlt{}/hasName\PYGZgt{}
+    \PYGZlt{}geo:location\PYGZgt{}No.51, Dalong St., Datong Dist., Taipei City 103, Taiwan (R.O.C.)\PYGZlt{}/geo:location\PYGZgt{}
+    \PYGZlt{}usedFor xmlns=\PYGZdq{}http://openisdm.iis.sinica.edu.tw/VR/\PYGZdq{}\PYGZgt{}Sport\PYGZlt{}/usedFor\PYGZgt{}
+    \PYGZlt{}createdAt xmlns=\PYGZdq{}http://openisdm.iis.sinica.edu.tw/VR/\PYGZdq{}
+        rdf:datatype=\PYGZdq{}http://www.w3.org/2001/XMLSchema\PYGZsh{}dateTime\PYGZdq{}\PYGZgt{}2012\PYGZhy{}11\PYGZhy{}28T09:05:13Z\PYGZlt{}/createdAt\PYGZgt{}
+    \PYGZlt{}geo:lat\PYGZgt{}25.0648\PYGZlt{}/geo:lat\PYGZgt{}
+\PYGZlt{}/rdf:Description\PYGZgt{}
+\PYGZlt{}/rdf:RDF\PYGZgt{}
+\end{Verbatim}
+\end{quote}
+
+
+\subparagraph{Related Documents}
+\label{user_guide:id6}\begin{description}
+\item[{\textbf{See also:}}] \leavevmode\begin{itemize}
+\item {} 
+\code{Extractor's Web API}
+
+\end{itemize}
+
+\end{description}
+
+
+\chapter{Developer's Guide}
+\label{index:developer-s-guide}
+
+\section{Coding Style}
+\label{developer_guide:coding-style}\label{developer_guide::doc}\label{developer_guide:developer-guide}
+
+\section{Documentation}
+\label{developer_guide:documentation}
+
+\section{Testing}
+\label{developer_guide:testing}
+
+\chapter{API Reference}
+\label{index:api-reference}
+
+\section{Web API}
+\label{api_ref::doc}\label{api_ref:web-api}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:post--extractor_?excludedNamespaces, checkUrisStatus, rdfContent_}\pysigline{\bfcode{POST~}\bfcode{/extractor\{?excludedNamespaces,~checkUrisStatus,~rdfContent\}}}~\begin{quote}\begin{description}
+\item[{Query Parameters}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{excludedNamespaces} -- \emph{(optional)} This specifies a list of namespaces to be skipped. That is, if a found URI belonged to this list, the URI will not be processed anymore.
+
+\item {} 
+\textbf{checkUrisStatus} -- \emph{(required)} This determines if \emph{extractor} checks the status codes of found URIs.
+
+\item {} 
+\textbf{rdfContent} -- \emph{(required)} This specifies the content of RDF to be processed.
+
+\end{itemize}
+
+\item[{Response Headers}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{Content-Type} -- application/json
+
+\end{itemize}
+
+\item[{Status Codes}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{200} -- no error
+
+\item {} 
+\textbf{404} -- exception
+
+\end{itemize}
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+For the detail spec., see \code{Extractor Web API}
+
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:post--mapper_?rdfContent, mapping, format_}\pysigline{\bfcode{POST~}\bfcode{/mapper\{?rdfContent,~mapping,~format\}}}~\begin{quote}\begin{description}
+\item[{Query Parameters}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{rdfContent} -- (required) This specifies the content of RDF to be processed.
+
+\item {} 
+\textbf{mapping} -- (required) This specifies the information needed for \emph{mapper} to update the URIs found in rdfContent.
+
+\item {} 
+\textbf{format} -- (optional) This specifies the format of output.
+
+\end{itemize}
+
+\item[{Response Headers}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{Content-Type} -- application/rdf+xml
+
+\end{itemize}
+
+\item[{Status Codes}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{200} -- no error
+
+\item {} 
+\textbf{404} -- exception
+
+\end{itemize}
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+For the detail spec., see \code{Mapper Web API}
+
+
+\section{Python API}
+\label{api_ref:python-api}
+This class Extractor
+\index{Extractor (class in extractor)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:extractor.Extractor}\pysiglinewithargsret{\strong{class }\code{extractor.}\bfcode{Extractor}}{\emph{graph}}{}
+Extractor parses an RDF content and provides services:
+\begin{enumerate}
+\item {} 
+extract URIs
+
+\item {} 
+extract Blank Nodes
+
+\item {} 
+look up for URI's line number
+
+\item {} 
+translate URIs into terms
+
+\end{enumerate}
+\index{getBnodes() (extractor.Extractor method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:extractor.Extractor.getBnodes}\pysiglinewithargsret{\bfcode{getBnodes}}{}{}
+This function is used to extract blank nodes.
+\begin{quote}\begin{description}
+\item[{Returns}] \leavevmode
+Array\textless{}str\textgreater{}. This function returns an array of blank nodes.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+\index{getUris() (extractor.Extractor method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:extractor.Extractor.getUris}\pysiglinewithargsret{\bfcode{getUris}}{}{}
+This function is used to extract URIs.
+\begin{quote}\begin{description}
+\item[{Returns}] \leavevmode
+Array\textless{}str\textgreater{}. This function returns an array of URIs.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+\index{get\_lines() (extractor.Extractor method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:extractor.Extractor.get_lines}\pysiglinewithargsret{\bfcode{get\_lines}}{\emph{sio}, \emph{lookup\_term}}{}
+This function is used to look up ``lookup\_term'' inside the given RDF content.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode
+\textbf{lookup\_term} (\emph{str.}) -- the uri for look up.
+
+\item[{Returns}] \leavevmode
+str. A string with all the line numbers, where the luupup\_term is found,
+used '','' as the delimiter.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+\index{testUri() (extractor.Extractor method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:extractor.Extractor.testUri}\pysiglinewithargsret{\bfcode{testUri}}{\emph{uri}}{}
+This function is used to test if the ``uri'' is reachable.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode
+\textbf{uri} (\emph{str.}) -- the uri for testing reachability.
+
+\item[{Returns}] \leavevmode
+boolean. True for reachable and False for unreachable.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\index{Mapper (class in mapper)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:mapper.Mapper}\pysiglinewithargsret{\strong{class }\code{mapper.}\bfcode{Mapper}}{\emph{graph}}{}~\index{commit() (mapper.Mapper method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:mapper.Mapper.commit}\pysiglinewithargsret{\bfcode{commit}}{}{}
+This function is used to save all URI replacements and output to a string.
+\begin{quote}\begin{description}
+\item[{Returns}] \leavevmode
+str. The string of result RDF with replaced URIs.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+\index{mapping() (mapper.Mapper method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:mapper.Mapper.mapping}\pysiglinewithargsret{\bfcode{mapping}}{\emph{json\_str}}{}
+This function is used to replaced mutiple URIs at once.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode
+\textbf{json\_str} (\emph{str.}) -- this json string defines multiple replacements
+
+\item[{Returns}] \leavevmode
+str. The string of result RDF with replaced URIs.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+\index{replaceUri() (mapper.Mapper method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:mapper.Mapper.replaceUri}\pysiglinewithargsret{\bfcode{replaceUri}}{\emph{oUri}, \emph{uUri}}{}
+This function is used to systemantically replace URIs.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode\begin{itemize}
+\item {} 
+\textbf{oUri} (\emph{str.}) -- the original URI.
+
+\item {} 
+\textbf{uUri} (\emph{str.}) -- the replced URI.
+
+\end{itemize}
+
+\item[{Returns}] \leavevmode
+int. The count of replacements.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
+\index{Tokenizer (class in tokenizer)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:tokenizer.Tokenizer}\pysigline{\strong{class }\code{tokenizer.}\bfcode{Tokenizer}}
+Tokenizer realizes serveral tokenization heuristics:
+\begin{enumerate}
+\item {} 
+identifying camelcase word
+
+\item {} 
+identifying all captials word
+
+\item {} 
+treat all non alphanumeric chars as delimiters
+
+\end{enumerate}
+\index{tokenized() (tokenizer.Tokenizer method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:tokenizer.Tokenizer.tokenized}\pysiglinewithargsret{\bfcode{tokenized}}{\emph{string}}{}
+This function is the integration of all known tokenizers.
+Theoretically, any compound words can be tokenized by this 
+function.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode
+\textbf{string} (\emph{str.}) -- The string to tokenize.
+
+\item[{Returns}] \leavevmode
+str -- the tokenized and normalized string.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+\index{tokenized\_url() (tokenizer.Tokenizer method)}
+
+\begin{fulllineitems}
+\phantomsection\label{api_ref:tokenizer.Tokenizer.tokenized_url}\pysiglinewithargsret{\bfcode{tokenized\_url}}{\emph{uri}}{}
+This function truncate the input URI's head and 
+output the tail part of the input URI. Be precisely, 
+only the tail part after the last slash will be 
+preserved. 
+For example, 
+input ``\href{http://www/xx/yy/zz-AB}{http://www/xx/yy/zz-AB}'' will get the 
+output as ``zz ab''
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode
+\textbf{string} (\emph{str.}) -- The string (URI) to tokenize.
+
+\item[{Returns}] \leavevmode
+str -- the tokenized and normalized string.
+
+\end{description}\end{quote}
+
+\end{fulllineitems}
+
+
+\end{fulllineitems}
+
 
 
 \renewcommand{\indexname}{HTTP Routing Table}
 \begin{theindex}
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 \bigletter{/extractor\{?excludedNamespaces, checkUrisStatus, rdfContent\}}
-\item {\texttt{POST /extractor\{?excludedNamespaces, checkUrisStatus, rdfContent\}}}, \pageref{index_old:post--extractor_?excludedNamespaces, checkUrisStatus, rdfContent_}
+\item {\texttt{POST /extractor\{?excludedNamespaces, checkUrisStatus, rdfContent\}}}, \pageref{api_ref:post--extractor_?excludedNamespaces, checkUrisStatus, rdfContent_}
 \indexspace
 \bigletter{/mapper\{?rdfContent, mapping, format\}}
-\item {\texttt{POST /mapper\{?rdfContent, mapping, format\}}}, \pageref{mapper_api:post--mapper_?rdfContent, mapping, format_}
+\item {\texttt{POST /mapper\{?rdfContent, mapping, format\}}}, \pageref{api_ref:post--mapper_?rdfContent, mapping, format_}
 \end{theindex}
 
 \renewcommand{\indexname}{Index}
