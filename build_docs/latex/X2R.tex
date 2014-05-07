@@ -939,34 +939,24 @@ Public License instead of this License.  But first, please read
 
 \section{Motivation}
 \label{concept_design:concept-and-design}\label{concept_design:motivation}\label{concept_design::doc}
-m
+Under Maintenance
 
 
 \section{Features}
 \label{concept_design:features}
-f
+Under Maintenance
 
 
 \section{Design}
 \label{concept_design:design}
-d
-
-This is the text of the section 2.
-
-It refers to the section itself, see \emph{my-reference-label}.
+Under Maintenance
 
 
 \chapter{User's Guide}
 \label{index:user-s-guide}
 
-\section{User Guide}
-\label{user_guide:user-guide}\label{user_guide::doc}\label{user_guide:id1}
-
-\subsection{API Reference}
-\label{user_guide:api-reference}\label{user_guide:id2}
-
-\subsubsection{Extractor}
-\label{user_guide:extractor}\label{user_guide:extractor-api}
+\section{Extractor}
+\label{user_guide:extractor}\label{user_guide:extractor-api}\label{user_guide::doc}
 For an input RDF content, this extractor service extracts terms from URIs of the RDF content.
 
 \textbf{Web API Definition:}
@@ -1007,7 +997,7 @@ For an input RDF content, this extractor service extracts terms from URIs of the
 
 
 
-\paragraph{Query Parameter Format Detail}
+\subsection{Query Parameter Format Detail}
 \label{user_guide:query-parameter-format-detail}\begin{quote}\begin{description}
 \item[{excludedNamespace}] \leavevmode
 \item[{checkUrisStatus}] \leavevmode
@@ -1015,7 +1005,7 @@ For an input RDF content, this extractor service extracts terms from URIs of the
 \end{description}\end{quote}
 
 
-\paragraph{Response Format Detail}
+\subsection{Response Format Detail}
 \label{user_guide:response-format-detail}
 Content-Type: application/json
 
@@ -1047,7 +1037,7 @@ mapping entry:
 \end{Verbatim}
 
 
-\subparagraph{Example}
+\subsubsection{Example}
 \label{user_guide:example}\begin{quote}
 
 \textbf{Example request}:
@@ -1078,7 +1068,7 @@ mapping entry:
 \end{quote}
 
 
-\subparagraph{Related Documents}
+\subsubsection{Related Documents}
 \label{user_guide:related-documents}\begin{description}
 \item[{\textbf{See also:}}] \leavevmode\begin{itemize}
 \item {} 
@@ -1089,7 +1079,7 @@ mapping entry:
 \end{description}
 
 
-\subsubsection{Mapper}
+\section{Mapper}
 \label{user_guide:mapper}\label{user_guide:mapper-api}\begin{quote}
 
 Given a RDF content, a URI mapping and an output format, this mapper service replaces URIs based on the URI mapping and return a RDF file in the output format
@@ -1131,21 +1121,21 @@ Given a RDF content, a URI mapping and an output format, this mapper service rep
 
 
 
-\paragraph{Query Parameter Format Detail}
-\label{user_guide:id3}\begin{quote}\begin{description}
+\subsection{Query Parameter Format Detail}
+\label{user_guide:id1}\begin{quote}\begin{description}
 \item[{rdfContent}] \leavevmode
 \item[{mapping}] \leavevmode
 \item[{format}] \leavevmode
 \end{description}\end{quote}
 
 
-\paragraph{Response Format Detail}
-\label{user_guide:id4}
+\subsection{Response Format Detail}
+\label{user_guide:id2}
 Content-Type: application/rdf+xml
 
 
-\subparagraph{Example}
-\label{user_guide:id5}\begin{quote}
+\subsubsection{Example}
+\label{user_guide:id3}\begin{quote}
 
 \textbf{Example request}:
 
@@ -1183,8 +1173,8 @@ Content-Type: application/rdf+xml
 \end{quote}
 
 
-\subparagraph{Related Documents}
-\label{user_guide:id6}\begin{description}
+\subsubsection{Related Documents}
+\label{user_guide:id4}\begin{description}
 \item[{\textbf{See also:}}] \leavevmode\begin{itemize}
 \item {} 
 \code{Extractor's Web API}
@@ -1199,17 +1189,231 @@ Content-Type: application/rdf+xml
 
 \section{Coding Style}
 \label{developer_guide:coding-style}\label{developer_guide::doc}\label{developer_guide:developer-guide}
-This project follows the python official coding style PEP8 \href{http://legacy.python.org/dev/peps/pep-0008/}{a pep8}.
+This project follows the Python official coding style \href{http://legacy.python.org/dev/peps/pep-0008/}{PEP8}.
+
+
+\section{Versioning}
+\label{developer_guide:pep8}\label{developer_guide:versioning}
+The versioning follows \href{http://semver.org/}{Semantic Versioning 2.0}.
+
+Here quote the summary of Semantic Version below:
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+\begin{quote}
+
+MAJOR version when you make incompatible API changes,
+MINOR version when you add functionality in a backwards-compatible manner, and
+PATCH version when you make backwards-compatible bug fixes.
+\end{quote}
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 
 \section{Documentation}
-\label{developer_guide:documentation}\label{developer_guide:a-pep8}
+\label{developer_guide:documentation}
+For documentation, this project uses \href{http://sphinx-doc.org/}{Sphinx}, which is a Python documentation generator.
+The syntax used in Sphinx is \href{http://docutils.sourceforge.net/rst.html}{reStructuredText}.
+The code comments are also written in reStructuredText by which the Sphinx can generate API references automatically from the comments. This practice makes sure the consistency between code and documents to some extent.
+
+Here is a full code comment example quoted from \href{https://pythonhosted.org/an\_example\_pypi\_project/sphinx.html}{Documenting Your Project Using Sphinx}.
+
+The \code{an\_example\_pypi\_project} contains
+\begin{itemize}
+\item {} 
+An \code{\_\_init\_\_} file for the module.
+
+\item {} 
+\code{useful\_1.py} and \code{useful\_2.py}.  These files are IDENTICAL so I'll only
+reprint one here.
+
+\item {} 
+The \code{code.rst} file which pulls it all together. This file lives in the doc
+directory.
+
+\end{itemize}
+
+\begin{notice}{note}{Note:}
+The idea behind the \code{auto} directives is to keep as much documentation in
+the code docstrings as possible.  However, Sphinx still aims to give you
+control not found when using real auto tools like doxygen or epydoc.
+
+Therefore, that is why you need the small stub file \code{code.rst} to bascially
+act as a director for pulling the docstrings from the code.
+\end{notice}
+
+Contents of \code{an\_example\_pypi\_project.\_\_init\_\_}:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}A pypi demonstration vehicle.}
+
+\PYG{l+s+sd}{.. moduleauthor:: Andrew Carter \PYGZlt{}andrew@invalid.com\PYGZgt{}}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{k+kn}{import} \PYG{n+nn}{useful\PYGZus{}1}
+\PYG{k+kn}{import} \PYG{n+nn}{useful\PYGZus{}2}
+
+
+\PYG{k}{def} \PYG{n+nf}{start}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s}{\PYGZdq{}}\PYG{l+s}{This starts this module running ...}\PYG{l+s}{\PYGZdq{}}
+\end{Verbatim}
+
+Contents of \code{an\_example\_pypi\_project.useful\_1}:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{.. module:: useful\PYGZus{}1}
+\PYG{l+s+sd}{   :platform: Unix, Windows}
+\PYG{l+s+sd}{   :synopsis: A useful module indeed.}
+
+\PYG{l+s+sd}{.. moduleauthor:: Andrew Carter \PYGZlt{}andrew@invalid.com\PYGZgt{}}
+
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{k}{def} \PYG{n+nf}{public\PYGZus{}fn\PYGZus{}with\PYGZus{}googley\PYGZus{}docstring}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,} \PYG{n}{state}\PYG{o}{=}\PYG{n+nb+bp}{None}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}This function does something.}
+
+\PYG{l+s+sd}{    Args:}
+\PYG{l+s+sd}{       name (str):  The name to use.}
+
+\PYG{l+s+sd}{    Kwargs:}
+\PYG{l+s+sd}{       state (bool): Current state to be in.}
+
+\PYG{l+s+sd}{    Returns:}
+\PYG{l+s+sd}{       int.  The return code::}
+
+\PYG{l+s+sd}{          0 \PYGZhy{}\PYGZhy{} Success!}
+\PYG{l+s+sd}{          1 \PYGZhy{}\PYGZhy{} No good.}
+\PYG{l+s+sd}{          2 \PYGZhy{}\PYGZhy{} Try again.}
+
+\PYG{l+s+sd}{    Raises:}
+\PYG{l+s+sd}{       AttributeError, KeyError}
+
+\PYG{l+s+sd}{    A really great idea.  A way you might use me is}
+
+\PYG{l+s+sd}{    \PYGZgt{}\PYGZgt{}\PYGZgt{} print public\PYGZus{}fn\PYGZus{}with\PYGZus{}googley\PYGZus{}docstring(name=\PYGZsq{}foo\PYGZsq{}, state=None)}
+\PYG{l+s+sd}{    0}
+
+\PYG{l+s+sd}{    BTW, this always returns 0.  **NEVER** use with :class:{}`MyPublicClass{}`.}
+
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{l+m+mi}{0}
+
+\PYG{k}{def} \PYG{n+nf}{public\PYGZus{}fn\PYGZus{}with\PYGZus{}sphinxy\PYGZus{}docstring}\PYG{p}{(}\PYG{n}{name}\PYG{p}{,} \PYG{n}{state}\PYG{o}{=}\PYG{n+nb+bp}{None}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}This function does something.}
+
+\PYG{l+s+sd}{    :param name: The name to use.}
+\PYG{l+s+sd}{    :type name: str.}
+\PYG{l+s+sd}{    :param state: Current state to be in.}
+\PYG{l+s+sd}{    :type state: bool.}
+\PYG{l+s+sd}{    :returns:  int \PYGZhy{}\PYGZhy{} the return code.}
+\PYG{l+s+sd}{    :raises: AttributeError, KeyError}
+
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{l+m+mi}{0}
+
+\PYG{k}{def} \PYG{n+nf}{public\PYGZus{}fn\PYGZus{}without\PYGZus{}docstring}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+    \PYG{k}{return} \PYG{n+nb+bp}{True}
+
+\PYG{k}{def} \PYG{n+nf}{\PYGZus{}private\PYGZus{}fn\PYGZus{}with\PYGZus{}docstring}\PYG{p}{(}\PYG{n}{foo}\PYG{p}{,} \PYG{n}{bar}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{baz}\PYG{l+s}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{foobarbas}\PYG{o}{=}\PYG{n+nb+bp}{None}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}I have a docstring, but won\PYGZsq{}t be imported if you just use {}`{}`:members:{}`{}`.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{n+nb+bp}{None}
+
+
+\PYG{k}{class} \PYG{n+nc}{MyPublicClass}\PYG{p}{(}\PYG{n+nb}{object}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}We use this as a public class example class.}
+
+\PYG{l+s+sd}{    You never call this class before calling :func:{}`public\PYGZus{}fn\PYGZus{}with\PYGZus{}sphinxy\PYGZus{}docstring{}`.}
+
+\PYG{l+s+sd}{    .. note::}
+
+\PYG{l+s+sd}{       An example of intersphinx is this: you **cannot** use :mod:{}`pickle{}` on this class.}
+
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{foo}\PYG{p}{,} \PYG{n}{bar}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{baz}\PYG{l+s}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}A really simple class.}
+
+\PYG{l+s+sd}{        Args:}
+\PYG{l+s+sd}{           foo (str): We all know what foo does.}
+
+\PYG{l+s+sd}{        Kwargs:}
+\PYG{l+s+sd}{           bar (str): Really, same as foo.}
+
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}foo} \PYG{o}{=} \PYG{n}{foo}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}bar} \PYG{o}{=} \PYG{n}{bar}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}foobar}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{foo}\PYG{p}{,} \PYG{n}{bar}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}This gets the foobar}
+
+\PYG{l+s+sd}{        This really should have a full function definition, but I am too lazy.}
+
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} print get\PYGZus{}foobar(10, 20)}
+\PYG{l+s+sd}{        30}
+\PYG{l+s+sd}{        \PYGZgt{}\PYGZgt{}\PYGZgt{} print get\PYGZus{}foobar(\PYGZsq{}a\PYGZsq{}, \PYGZsq{}b\PYGZsq{})}
+\PYG{l+s+sd}{        ab}
+
+\PYG{l+s+sd}{        Isn\PYGZsq{}t that what you want?}
+
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{k}{return} \PYG{n}{foo} \PYG{o}{+} \PYG{n}{bar}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}get\PYGZus{}baz}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{baz}\PYG{o}{=}\PYG{n+nb+bp}{None}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}A private function to get baz.}
+
+\PYG{l+s+sd}{        This really should have a full function definition, but I am too lazy.}
+
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{k}{return} \PYG{n}{baz}
+\end{Verbatim}
+
+And finally, contents of \code{code.rst} which pulls it all together:
+
+\begin{Verbatim}[commandchars=\\\{\}]
+Documentation for the Code
+**************************
+
+.. automodule:: an\PYGZus{}example\PYGZus{}pypi\PYGZus{}project
+
+
+useful \PYGZsh{}1 \PYGZhy{}\PYGZhy{} auto members
+=========================
+
+This is something I want to say that is not in the docstring.
+
+.. automodule:: an\PYGZus{}example\PYGZus{}pypi\PYGZus{}project.useful\PYGZus{}1
+   :members:
+
+useful \PYGZsh{}2 \PYGZhy{}\PYGZhy{} explicit members
+=============================
+
+This is something I want to say that is not in the docstring.
+
+.. automodule:: an\PYGZus{}example\PYGZus{}pypi\PYGZus{}project.useful\PYGZus{}2
+   :members: public\PYGZus{}fn\PYGZus{}with\PYGZus{}sphinxy\PYGZus{}docstring, \PYGZus{}private\PYGZus{}fn\PYGZus{}with\PYGZus{}docstring
+
+.. autoclass:: MyPublicClass
+   :members: get\PYGZus{}foobar, \PYGZus{}get\PYGZus{}baz
+\end{Verbatim}
+
+\begin{notice}{note}{Note:}
+The documents like \code{code.rst} are located at /docs/. And the built documents are located at /build\_docs/.
+Currently, two formats are supported in X2R-ME, namely PDF and HTML formats. The documents are also online
+available by linking the GitHub to ReadTheDocs services. The online X2R-ME's documents can be accessed via
+\href{http://x2r-me.readthedocs.org/en/latest/}{http://x2r-me.readthedocs.org/en/latest/}.
+\end{notice}
+
 
 \section{Testing}
 \label{developer_guide:testing}
+This project uses Python \href{https://docs.python.org/2/library/unittest.html}{unittest} to conduct unit testing. The test codes are located at /x2r-me/testsuite/unit/. The test fixture, such as test data and test databases, used by test suites are located at /x2r-me/testsuite/test\_fixtures/. Currently, this project are not using framework for acceptance testing. And all the acceptance testing codes are located in /x2r-me/testsuite/acceptance/.
+
 
 \chapter{API Reference}
-\label{index:api-reference}
+\label{index:api-reference}\label{index:unittest}
 
 \section{Web API}
 \label{api_ref::doc}\label{api_ref:web-api}
@@ -1492,10 +1696,10 @@ str -- the tokenized and normalized string.
 \begin{theindex}
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
 \bigletter{/extractor\{?excludedNamespaces, checkUrisStatus, rdfContent\}}
-\item {\texttt{POST /extractor\{?excludedNamespaces, checkUrisStatus, rdfContent\}}}, \pageref{api_ref:post--extractor_?excludedNamespaces, checkUrisStatus, rdfContent_}
+\item {\texttt{POST /extractor\{?excludedNamespaces, checkUrisStatus, rdfContent\}}}, \pageref{user_guide:post--extractor_?excludedNamespaces, checkUrisStatus, rdfContent_}
 \indexspace
 \bigletter{/mapper\{?rdfContent, mapping, format\}}
-\item {\texttt{POST /mapper\{?rdfContent, mapping, format\}}}, \pageref{api_ref:post--mapper_?rdfContent, mapping, format_}
+\item {\texttt{POST /mapper\{?rdfContent, mapping, format\}}}, \pageref{user_guide:post--mapper_?rdfContent, mapping, format_}
 \end{theindex}
 
 \renewcommand{\indexname}{Index}

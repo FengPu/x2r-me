@@ -10,24 +10,23 @@
 \contentsline {section}{\numberline {4.2}Features}{17}{section.4.2}
 \contentsline {section}{\numberline {4.3}Design}{17}{section.4.3}
 \contentsline {chapter}{\numberline {5}User's Guide}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}User Guide}{19}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}API Reference}{19}{subsection.5.1.1}
-\contentsline {subsubsection}{Extractor}{19}{subsubsection*.3}
-\contentsline {paragraph}{Query Parameter Format Detail}{19}{paragraph*.5}
-\contentsline {paragraph}{Response Format Detail}{19}{paragraph*.6}
-\contentsline {subparagraph}{Example}{20}{subparagraph*.7}
-\contentsline {subparagraph}{Related Documents}{20}{subparagraph*.8}
-\contentsline {subsubsection}{Mapper}{20}{subsubsection*.9}
-\contentsline {paragraph}{Query Parameter Format Detail}{21}{paragraph*.11}
-\contentsline {paragraph}{Response Format Detail}{21}{paragraph*.12}
-\contentsline {subparagraph}{Example}{21}{subparagraph*.13}
-\contentsline {subparagraph}{Related Documents}{22}{subparagraph*.14}
+\contentsline {section}{\numberline {5.1}Extractor}{19}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Query Parameter Format Detail}{19}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Response Format Detail}{19}{subsection.5.1.2}
+\contentsline {subsubsection}{Example}{20}{subsubsection*.4}
+\contentsline {subsubsection}{Related Documents}{20}{subsubsection*.5}
+\contentsline {section}{\numberline {5.2}Mapper}{20}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Query Parameter Format Detail}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Response Format Detail}{21}{subsection.5.2.2}
+\contentsline {subsubsection}{Example}{21}{subsubsection*.7}
+\contentsline {subsubsection}{Related Documents}{22}{subsubsection*.8}
 \contentsline {chapter}{\numberline {6}Developer's Guide}{23}{chapter.6}
 \contentsline {section}{\numberline {6.1}Coding Style}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Documentation}{23}{section.6.2}
-\contentsline {section}{\numberline {6.3}Testing}{23}{section.6.3}
-\contentsline {chapter}{\numberline {7}API Reference}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Web API}{25}{section.7.1}
-\contentsline {section}{\numberline {7.2}Python API}{26}{section.7.2}
-\contentsline {chapter}{HTTP Routing Table}{29}{section*.29}
-\contentsline {chapter}{Index}{31}{section*.30}
+\contentsline {section}{\numberline {6.2}Versioning}{23}{section.6.2}
+\contentsline {section}{\numberline {6.3}Documentation}{23}{section.6.3}
+\contentsline {section}{\numberline {6.4}Testing}{26}{section.6.4}
+\contentsline {chapter}{\numberline {7}API Reference}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}Web API}{27}{section.7.1}
+\contentsline {section}{\numberline {7.2}Python API}{28}{section.7.2}
+\contentsline {chapter}{HTTP Routing Table}{31}{section*.23}
+\contentsline {chapter}{Index}{33}{section*.24}

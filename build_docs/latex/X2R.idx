@@ -1,12 +1,12 @@
-\indexentry{Extractor (class in extractor)|hyperpage}{26}
-\indexentry{getBnodes() (extractor.Extractor method)|hyperpage}{26}
-\indexentry{getUris() (extractor.Extractor method)|hyperpage}{26}
-\indexentry{get\_lines() (extractor.Extractor method)|hyperpage}{26}
-\indexentry{testUri() (extractor.Extractor method)|hyperpage}{26}
-\indexentry{Mapper (class in mapper)|hyperpage}{26}
-\indexentry{commit() (mapper.Mapper method)|hyperpage}{26}
-\indexentry{mapping() (mapper.Mapper method)|hyperpage}{26}
-\indexentry{replaceUri() (mapper.Mapper method)|hyperpage}{26}
-\indexentry{Tokenizer (class in tokenizer)|hyperpage}{26}
-\indexentry{tokenized() (tokenizer.Tokenizer method)|hyperpage}{27}
-\indexentry{tokenized\_url() (tokenizer.Tokenizer method)|hyperpage}{27}
+\indexentry{Extractor (class in extractor)|hyperpage}{28}
+\indexentry{getBnodes() (extractor.Extractor method)|hyperpage}{28}
+\indexentry{getUris() (extractor.Extractor method)|hyperpage}{28}
+\indexentry{get\_lines() (extractor.Extractor method)|hyperpage}{28}
+\indexentry{testUri() (extractor.Extractor method)|hyperpage}{28}
+\indexentry{Mapper (class in mapper)|hyperpage}{28}
+\indexentry{commit() (mapper.Mapper method)|hyperpage}{28}
+\indexentry{mapping() (mapper.Mapper method)|hyperpage}{28}
+\indexentry{replaceUri() (mapper.Mapper method)|hyperpage}{28}
+\indexentry{Tokenizer (class in tokenizer)|hyperpage}{28}
+\indexentry{tokenized() (tokenizer.Tokenizer method)|hyperpage}{29}
+\indexentry{tokenized\_url() (tokenizer.Tokenizer method)|hyperpage}{29}
