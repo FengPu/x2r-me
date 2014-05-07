@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.23)  6 MAY 2014 21:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.23)  7 MAY 2014 09:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,10 +1000,10 @@ Package rerunfilecheck Info: File `X2R.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1503.
  ) 
 Here is how much of TeX's memory you used:
- 9258 strings out of 493315
- 129366 string characters out of 6137903
- 228365 words of memory out of 5000000
- 12344 multiletter control sequences out of 15000+600000
+ 9259 strings out of 493315
+ 129390 string characters out of 6137903
+ 228406 words of memory out of 5000000
+ 12345 multiletter control sequences out of 15000+600000
  65310 words of font info for 71 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
  36i,12n,45p,313b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1016,10 +1016,10 @@ type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on X2R.pdf (35 pages, 161716 bytes).
+Output written on X2R.pdf (35 pages, 161894 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 349 compressed objects within 4 object streams
+ 404 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
  111 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

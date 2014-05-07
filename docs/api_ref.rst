@@ -29,7 +29,7 @@ For the detail spec., see :doc:`Mapper Web API <mapper_api>`
 
 Python API
 ----------
-This class Extractor
+
 
 .. autoclass:: extractor.Extractor
    :members:

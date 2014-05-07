@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>User Guide &mdash; X2R 1.0 documentation</title>
+    <title>Extractor &mdash; X2R 1.0 documentation</title>
     
     <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -24,8 +24,8 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="X2R 1.0 documentation" href="index.html" />
-    <link rel="next" title="Developer Guide" href="developer_guide.html" />
-    <link rel="prev" title="Concept and Design" href="concept_design.html" /> 
+    <link rel="next" title="Coding Style" href="developer_guide.html" />
+    <link rel="prev" title="Motivation" href="concept_design.html" /> 
   </head>
   <body>
     <div class="related">
@@ -38,10 +38,13 @@
           <a href="http-routingtable.html" title="HTTP Routing Table"
              >routing table</a> |</li>
         <li class="right" >
-          <a href="developer_guide.html" title="Developer Guide"
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="developer_guide.html" title="Coding Style"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="concept_design.html" title="Concept and Design"
+          <a href="concept_design.html" title="Motivation"
              accesskey="P">previous</a> |</li>
         <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
       </ul>
@@ -50,9 +53,7 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">User Guide</a><ul>
-<li><a class="reference internal" href="#api-reference">API Reference</a><ul>
-<li><a class="reference internal" href="#extractor">Extractor</a><ul>
+<li><a class="reference internal" href="#">Extractor</a><ul>
 <li><a class="reference internal" href="#query-parameter-format-detail">Query Parameter Format Detail</a></li>
 <li><a class="reference internal" href="#response-format-detail">Response Format Detail</a><ul>
 <li><a class="reference internal" href="#example">Example</a></li>
@@ -62,14 +63,10 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#mapper">Mapper</a><ul>
-<li><a class="reference internal" href="#id3">Query Parameter Format Detail</a></li>
-<li><a class="reference internal" href="#id4">Response Format Detail</a><ul>
-<li><a class="reference internal" href="#id5">Example</a></li>
-<li><a class="reference internal" href="#id6">Related Documents</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a class="reference internal" href="#id1">Query Parameter Format Detail</a></li>
+<li><a class="reference internal" href="#id2">Response Format Detail</a><ul>
+<li><a class="reference internal" href="#id3">Example</a></li>
+<li><a class="reference internal" href="#id4">Related Documents</a></li>
 </ul>
 </li>
 </ul>
@@ -78,10 +75,10 @@
 
   <h4>Previous topic</h4>
   <p class="topless"><a href="concept_design.html"
-                        title="previous chapter">Concept and Design</a></p>
+                        title="previous chapter">Motivation</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="developer_guide.html"
-                        title="next chapter">Developer Guide</a></p>
+                        title="next chapter">Coding Style</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
     <li><a href="_sources/user_guide.txt"
@@ -108,12 +105,8 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="user-guide">
-<span id="id1"></span><h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="api-reference">
-<span id="id2"></span><h2>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="extractor">
-<span id="extractor-api"></span><h3>Extractor<a class="headerlink" href="#extractor" title="Permalink to this headline">¶</a></h3>
+  <div class="section" id="extractor">
+<span id="extractor-api"></span><h1>Extractor<a class="headerlink" href="#extractor" title="Permalink to this headline">¶</a></h1>
 <p>For an input RDF content, this extractor service extracts terms from URIs of the RDF content.</p>
 <p><strong>Web API Definition:</strong></p>
 <dl class="post">
@@ -148,7 +141,7 @@
 </dd></dl>
 
 <div class="section" id="query-parameter-format-detail">
-<h4>Query Parameter Format Detail<a class="headerlink" href="#query-parameter-format-detail" title="Permalink to this headline">¶</a></h4>
+<h2>Query Parameter Format Detail<a class="headerlink" href="#query-parameter-format-detail" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -165,7 +158,7 @@
 </table>
 </div>
 <div class="section" id="response-format-detail">
-<h4>Response Format Detail<a class="headerlink" href="#response-format-detail" title="Permalink to this headline">¶</a></h4>
+<h2>Response Format Detail<a class="headerlink" href="#response-format-detail" title="Permalink to this headline">¶</a></h2>
 <p>Content-Type: application/json</p>
 <p>Response template:</p>
 <div class="highlight-python"><div class="highlight"><pre><span class="p">{</span><span class="s">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">[],</span>
@@ -191,7 +184,7 @@
 </pre></div>
 </div>
 <div class="section" id="example">
-<h5>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h5>
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p><strong>Example request</strong>:</p>
 <div class="highlight-http"><div class="highlight"><pre><span class="nf">POST</span> <span class="nn">/extractor?excludedNamespaces&amp;checkUrisStatus&amp;rdfContent</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
@@ -218,7 +211,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="related-documents">
-<h5>Related Documents<a class="headerlink" href="#related-documents" title="Permalink to this headline">¶</a></h5>
+<h3>Related Documents<a class="headerlink" href="#related-documents" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><strong>See also:</strong></dt>
 <dd><ul class="first last simple">
@@ -230,7 +223,7 @@
 </div>
 </div>
 <div class="section" id="mapper">
-<span id="mapper-api"></span><h3>Mapper<a class="headerlink" href="#mapper" title="Permalink to this headline">¶</a></h3>
+<span id="mapper-api"></span><h1>Mapper<a class="headerlink" href="#mapper" title="Permalink to this headline">¶</a></h1>
 <blockquote>
 <div>Given a RDF content, a URI mapping and an output format, this mapper service replaces URIs based on the URI mapping and return a RDF file in the output format</div></blockquote>
 <dl class="post">
@@ -264,8 +257,8 @@
 </table>
 </dd></dl>
 
-<div class="section" id="id3">
-<h4>Query Parameter Format Detail<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id1">
+<h2>Query Parameter Format Detail<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -279,11 +272,11 @@
 </tbody>
 </table>
 </div>
-<div class="section" id="id4">
-<h4>Response Format Detail<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id2">
+<h2>Response Format Detail<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>Content-Type: application/rdf+xml</p>
-<div class="section" id="id5">
-<h5>Example<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="id3">
+<h3>Example<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p><strong>Example request</strong>:</p>
 <div class="highlight-http"><div class="highlight"><pre><span class="nf">POST</span> <span class="nn">/mapper?rdfContent&amp;mapping&amp;format</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
@@ -317,8 +310,8 @@
 </div>
 </div></blockquote>
 </div>
-<div class="section" id="id6">
-<h5>Related Documents<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h5>
+<div class="section" id="id4">
+<h3>Related Documents<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><strong>See also:</strong></dt>
 <dd><ul class="first last simple">
@@ -326,8 +319,6 @@
 </ul>
 </dd>
 </dl>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -348,10 +339,13 @@
           <a href="http-routingtable.html" title="HTTP Routing Table"
              >routing table</a> |</li>
         <li class="right" >
-          <a href="developer_guide.html" title="Developer Guide"
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="developer_guide.html" title="Coding Style"
              >next</a> |</li>
         <li class="right" >
-          <a href="concept_design.html" title="Concept and Design"
+          <a href="concept_design.html" title="Motivation"
              >previous</a> |</li>
         <li><a href="index.html">X2R 1.0 documentation</a> &raquo;</li> 
       </ul>
